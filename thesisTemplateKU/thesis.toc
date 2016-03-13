@@ -1,0 +1,19 @@
+\select@language {english}
+\contentsline {chapter}{Acceptance Page}{i}
+\contentsline {chapter}{Abstract}{ii}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {chapter}{\numberline {2}Statement of Problem}{3}
+\contentsline {section}{\numberline {2.1}Programmability of Hybrid Systems}{3}
+\contentsline {section}{\numberline {2.2}Uniformity of Services in a Hybrid System}{3}
+\contentsline {section}{\numberline {2.3}Contributions of this Thesis}{3}
+\contentsline {chapter}{\numberline {3}Background}{4}
+\contentsline {chapter}{\numberline {4}Related Works}{5}
+\contentsline {chapter}{\numberline {5}Design \& Architecture}{6}
+\contentsline {section}{\numberline {5.1}First Scheduler Redesign}{6}
+\contentsline {section}{\numberline {5.2}Second Scheduler Redesign}{9}
+\contentsline {section}{\numberline {5.3}Third Scheduler Redesign}{9}
+\contentsline {chapter}{\numberline {6}Implementation Results}{10}
+\contentsline {section}{\numberline {6.1}Results of the First Redesign}{10}
+\contentsline {section}{\numberline {6.2}Results of the Second Redesign}{11}
+\contentsline {section}{\numberline {6.3}Results of the Third Redesign}{11}
+\contentsline {chapter}{\numberline {7}Conclusion}{12}

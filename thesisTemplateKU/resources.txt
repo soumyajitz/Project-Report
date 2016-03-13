@@ -1,0 +1,23 @@
+********** Build 1 ******************************
+ Number of Slices:                     484  out of  13696     3%  
+ Number of Slice Flip Flops:           573  out of  27392     2%  
+ Number of 4 input LUTs:               873  out of  27392     3%  
+ Number of BRAMs:                        1  out of    136     0%  
+
+ (Maximum Frequency: 166.736MHz)
+
+********** Build 2 ******************************
+ Number of Slices:                     1034 out of  13696     7.5%  
+ Number of Slice Flip Flops:           522  out of  27392     1.9%  
+ Number of 4 input LUTs:               1900  out of  27392     6.9%  
+ Number of BRAMs:                        2  out of    136     0%  
+
+ (Maximum Frequency: 143.8MHz)
+
+********** Build 3 ******************************
+ Number of Slices:                    1455  out of  13696    10%  
+ Number of Slice Flip Flops:           973  out of  27392     3%  
+ Number of 4 input LUTs:              2425  out of  27392     8%  
+ Number of BRAMs:                        3  out of    136     2%  
+
+ (Maximum Frequency: 119.581MHz)

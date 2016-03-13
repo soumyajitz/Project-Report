@@ -1,0 +1,96 @@
+\section{First Scheduler Redesign} \label{sec:build1} The initial scheduler in
+the HybridThreads system used a simple FIFO scheduling mechanism that was
+internal to the Thread Manager (TM) \cite{Andrews:2004wu}.  The add\_thread
+system call would be routed to the Thread Manager and the TM would then insert
+the thread into a singly-linked FIFO ready-to-run queue.  The main problem with
+this scheduling structure is that the ready-to-run queue was built in to the
+Thread Manager's attribute structures used for data storage for thread
+management status.  This means that thread management (allocation, creation,
+and control) and thread scheduling (ready-to-run queue management, and
+scheduling decisions) activities could not occur in parallel.  Additionally,
+any changes in scheduling mechanisms and scheduling data arrangement would also
+affect the management mechanisms, and vice-versa, so maintenance of the
+management and scheduling services would be difficult, cumbersome, and
+error-prone.
+
+Both the thread management and thread scheduling mechanisms would have to be
+modified if either were to be extended in their functionality or data storage
+requirements.  The scheduling mechanism was going to be upgraded to allow for
+priority scheduling and eventually would have to handle the scheduling of both
+SW and HW threads, so it was decided to make the scheduler a separate IP module
+that would have its own interface to the HybridThreads system bus.  Many thread
+management operations result in the invocation of scheduling operations, so
+essentially the TM uses the scheduler module as a coprocessor for any and all
+scheduling operations.  Many of these coprocessor operations can only occur as
+a result of a management operation so the TM will always be the "caller" in
+these cases.  This, in conjunction with the scheduler becoming a separate
+module, means that all outgoing operations from the TM to the scheduler will
+result in a bus operation; however if the TM is using the scheduler to complete
+a management operation, then the bus will already be locked by the caller of
+the TM operation.  This meant that a special interface must be
+created between the TM and the new scheduler module to allow access to
+scheduling operations while the system bus was locked.  Additionally, since
+other scheduler specific operations are not ever called as the result of a thread
+management operation, then these scheduling operations can be called via the
+new interface used to attach the independent scheduler module to the
+HybridThreads system bus.
+
+The TMcom interface is a dedicated hardware interface between the scheduler
+module and the TM that consists of a total of seven control and data signals as
+well as access to a read-only interface (B-port) of the TM's Block RAM (BRAM).
+The data signals include \texttt{Next\_Thread\_ID},
+\texttt{Current\_Thread\_ID}, and \texttt{Thread\_ID\_2\_Sched}.  The
+\texttt{Next\_Thread\_ID} signal represents the identifier of the thread chosen
+to run next on the CPU.  This signal is writable by the scheduler module and
+readable by the TM.  The \texttt{Current\_Thread\_ID} signal represents the
+identifier of the thread that is currently running on the CPU (PowerPC 405).
+This signal is readable by the scheduler module and writable by the TM.  The
+\texttt{Thread\_ID\_2\_Sched} signal contains the identifier of the thread that
+is being added to the ready-to-run queue by the TM.  This signal is readable by
+the scheduler and writable by the TM.  The control signals include
+\texttt{Next\_Thread\_Valid}, \texttt{Dequeue\_Request},
+\texttt{Enqueue\_Request}, and \texttt{Enqueue\_Busy}.  The
+\texttt{Next\_Thread\_Valid} signal represents whether or not that the
+scheduling decision available from the scheduler module on the
+\texttt{Next\_Thread\_ID} signal is valid or not (Valid = 1, Invalid = 0).
+This signal is writable by the scheduler module and readable by the TM.  The
+\texttt{Dequeue\_Request} signal is used by the TM to request the scheduler
+module to perform a dequeue operation of the thread whose identifier is on the
+\texttt{Next\_Thread\_ID} signal.  This signal is readable by the scheduler
+module and writable by the TM.  The \texttt{Enqueue\_Request} signal is used by
+the TM to request the scheduler module to perform an enqueue operation of the
+thread whose identifier is on the \texttt{Thread\_ID\_2\_Sched} signal.  This
+signal is readable by the scheduler module and writable by the TM.  The
+\texttt{Enqueue\_Busy} signal represents whether or not the scheduler is
+currently busy performing an enqueue operation (Busy = 1, Not Busy = 0).  This
+signal is writable by the scheduler module and readable by the TM.  The B-Port
+interface to the TM's BRAM allows the scheduler module to query thread
+management information in order to perform error-checking that concerns the
+parent-child relationships of threads that the TM's data structures hold.  The
+purpose of the TMcom interface is to allow the TM to request scheduling
+operations as a result of thread management operations whose side-effects alter
+the scheduling status of the system (i.e. the status of the ready-to-run
+queue).  The operations available through the TMcom interface can be seen in table
+\ref{tab:commands1}.
+
+\begin{table}
+\caption{\label{tab:commands1}Command Set of Scheduler Module, Build 1}
+\centering
+\begin{tabular}{llp{3.0in}}
+\hline
+\multicolumn{1}{c}{\textbf{Type}} &
+\multicolumn{1}{c}{\textbf{Name}} &
+\multicolumn{1}{c}{\textbf{Actions}} \\
+\hline
+TMcom	&	Enqueue				& Schedules a thread\\
+TMcom	&	Dequeue				& Removes a thread from the ready-to-run queue	\\
+BUScom	&	Get\_Entry     		& Returns a thread's table attribute entry		\\
+BUScom	&	Toggle\_Preemption	& Toggle preemption interrupt on/off	\\
+BUScom	&	Get\_Entry     		& Returns a thread's table attribute entry (for debug use)		\\
+BUScom	&	Get\_Priority		& Returns the priority-level of a thread	\\
+BUScom	&	Set\_Priority		& Sets the priority-level of a thread\\
+BUScom	&	Set\_Default\_Priority		& Sets the priority-level of a thread (no error-checking)\\
+\hline
+\end{tabular}
+\end{table}
+

@@ -1,0 +1,33 @@
+\chapter{Introduction} \label{sec:intro} Embedded systems are becoming more
+sophisticated and universal in our society, and are increasingly relying on
+Real-Time Operating Systems (RTOS) to deliver precise, predictable, and robust
+behavior.  Two fundamental challenges in the design of RTOS kernels are the
+minimization of system overhead and jitter \cite{stankovicJitter}.  With a
+shared computational resource such as a CPU, the execution of system services
+themselves takes away from much needed application processing time.  By
+minimizing the system overhead, more computational cycles are available to the
+application.  Minimizing the jitter in the system allows for more precise,
+deterministic scheduling of threads which allows the system to respond to
+overhead in our system.
+
+The rest of the paper is organized as follows.  The problem statement of this
+thesis work is developed in chapter \ref{sec:problem}.  The subject of improved
+precision and predictability of scheduling within an RTOS are discussed in
+chapter \ref{sec:back}.  Related works in the subject area are discussed in
+chapter \ref{sec:related}.  Chapter \ref{sec:design} describes the iterative
+redesigns of the scheduler module over the course of my thesis work.  The
+initial design of the scheduler module \cite{Agron:rt} is discussed in section
+\ref{sec:build1}.  The second redesign of the scheduler module is covered in
+section \ref{sec:build2}, which includes the work done to further reduce
+scheduling overhead and jitter.  Section \ref{sec:build3} covers the final
+scheduler module redesign which extends thread management and scheduling
+services to both hardware and software-based threads in the HybridThreads
+system.  Performance results of the various versions of the scheduler module,
+both as an independent entity and actual integrated performance measurements
+are shown in chapter \ref{sec:results}.  The evaluation of the design and
+implementation of the scheduler module, and comments on future work to be done
+on the scheduler module and other components within HybridThreads, a
+multithreaded RTOS kernel
+\cite{andrews04a,andrews04b,niehaus03,etfa05,Peck:dq}, are discussed in chapter
+\ref{sec:conc}.
+

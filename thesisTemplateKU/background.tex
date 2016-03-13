@@ -1,0 +1,12 @@
+\chapter{Background}
+\label{sec:back}
+Most real-time
+operating systems, such as RTLinux \cite{yodaiken99rtlinux}, attempt to
+minimize the jitter introduced by asynchronous requests by pre-processing
+external requests within a small, fast interrupt service routine that
+determines if the request should be immediately handled, or can simply be
+marked as pending for future service.  While this approach does reduce
+jitter, it is still based on the semantics of allowing asynchronous
+invocations to interrupt the CPU, and incurring the overhead of a context
+switch to an interrupt service routine.
+

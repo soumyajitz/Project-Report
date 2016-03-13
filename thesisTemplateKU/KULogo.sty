@@ -1,0 +1,25 @@
+% Style file for LaTeX2e
+%   \usepackage{KULogo}
+%
+% This package provides a The University of Kansas seal.  
+%
+% macros:
+%    \KUSeal{h-length}{v-length}
+%      Scale the seal so that the width is the given h-length value and the
+%      height is the given v-length value.  If either dimension is given as !,
+%      the other argument is used to determine the scaling.  This macro calls
+%      \resizebox passing the arguments directly to that macro.
+%
+% Example:
+%   \usepackage{KULogo}
+%   \KUSeal{!}{1in}            % 1 inch high KU seal
+
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{KULogo}[2004/08/31]
+
+\RequirePackage{graphics}
+
+% KU seal
+\newcommand\KUSeal[2]{\resizebox{#1}{#2}{%
+        \includegraphics{figures/KUseal.pdf}}}
