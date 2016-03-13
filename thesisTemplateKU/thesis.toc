@@ -2,22 +2,21 @@
 \contentsline {chapter}{Acceptance Page}{i}
 \contentsline {chapter}{Abstract}{ii}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
-\contentsline {chapter}{\numberline {2}Statement of the Problem}{2}
-\contentsline {section}{\numberline {2.1}Types of Biometrics}{2}
-\contentsline {section}{\numberline {2.2}Purpose of Biometric Recognition}{2}
-\contentsline {section}{\numberline {2.3}Contributions of this Project}{2}
-\contentsline {chapter}{\numberline {3}Background}{3}
-\contentsline {chapter}{\numberline {4}Related Works}{4}
-\contentsline {chapter}{\numberline {5}Design \& of Proposed Approach}{5}
-\contentsline {section}{\numberline {5.1}Traditional Approach}{5}
-\contentsline {section}{\numberline {5.2}SIFT and SURF Descriptor}{5}
-\contentsline {section}{\numberline {5.3}Training Model}{5}
-\contentsline {section}{\numberline {5.4}Deep Learning Approach}{5}
-\contentsline {section}{\numberline {5.5}Convolutional Neural Network}{5}
-\contentsline {section}{\numberline {5.6}Our Network and Model}{5}
-\contentsline {chapter}{\numberline {6}Implementation Results}{6}
-\contentsline {section}{\numberline {6.1}Results of the Traditional Approach}{6}
-\contentsline {section}{\numberline {6.2}Results of the Deep Approach}{6}
-\contentsline {section}{\numberline {6.3}Comparison of the Approaches}{6}
-\contentsline {chapter}{\numberline {7}Conclusion}{7}
-\contentsline {chapter}{\numberline {8}Future Work}{}
+\contentsline {chapter}{\numberline {2}Statement of the Problem}{3}
+\contentsline {section}{\numberline {2.1}Types of Biometrics}{3}
+\contentsline {section}{\numberline {2.2}Purpose of Biometric Recognition}{3}
+\contentsline {section}{\numberline {2.3}Contributions of this Project}{3}
+\contentsline {chapter}{\numberline {3}Background}{4}
+\contentsline {chapter}{\numberline {4}Related Works}{5}
+\contentsline {chapter}{\numberline {5}Design of Proposed Approach}{6}
+\contentsline {section}{\numberline {5.1}Traditional Approach}{6}
+\contentsline {section}{\numberline {5.2}SIFT and SURF Descriptor}{9}
+\contentsline {section}{\numberline {5.3}Training Model}{9}
+\contentsline {section}{\numberline {5.4}Deep Learning Approach}{10}
+\contentsline {section}{\numberline {5.5}Convolution Neural Network}{10}
+\contentsline {section}{\numberline {5.6}Our Deep Network and Model}{10}
+\contentsline {chapter}{\numberline {6}Implementation Results}{11}
+\contentsline {section}{\numberline {6.1}Results of the Traditional Approach}{11}
+\contentsline {section}{\numberline {6.2}Results of the Deep Approach}{12}
+\contentsline {section}{\numberline {6.3}Comparison of the Approaches}{12}
+\contentsline {chapter}{\numberline {7}Conclusion}{13}
