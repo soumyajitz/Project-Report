@@ -1,24 +1,14 @@
-\chapter{Introduction} \label{sec:intro} Biometric authentication of people based on various anatomical characteristics, like eye, ear, face, iris, and fingerprint have attracted lots of attention during the past few decades, and some of these techniques have already been successfully applied for recognition and authentication. However, many systems are not very robust and may fail to work under certain conditions. Biometric ear recognition is a relatively new technique that may surpass the existing systems due to several significant reasons. For ex- ample, the acquisition of ear images is relatively easy and, unlike iris, can be captured without the co-operation of individuals 
+\chapter{Introduction} \label{sec:intro} Biometric authentication of people based on various anatomical characteristics, like eye, ear, face, iris, and fingerprint have attracted lots of attention during the past few decades, and some of these techniques have already been successfully applied for recognition and authentication. However, many systems are not very robust and may fail to work under certain conditions. Biometric ear recognition is a relatively new technique that may surpass the existing systems due to several significant reasons. For example, the acquisition of ear images is relatively easy and, unlike iris, can be captured without the co-operation of individuals \cite{pflug2012ear}
 
+\\Human ear contains rich and stable features which are more reliable than face fea- tures, as the structure of the ear is not subject to change with age. It has also been found out that no two ears are exactly the same even for identical twins [3]. The detailed structure of ear is not only very unique but also permanent, since the shape of a human ear never shows drastic changes over the course of life. The research on ear identification was first conducted by Bertillon, a French criminologist, in 1890. The process was refined by American police officer, Iannarelli [20], who divided the ear based on vari- ous distinctive features of seven parts: i.e. helix, concha, antihelix, crux of helix, inter- tragic notch, tragus, and antitragus [3].
 
-The rest of the paper is organized as follows.  The problem statement of this
-thesis work is developed in chapter \ref{sec:problem}.  The subject of improved
-precision and predictability of scheduling within an RTOS are discussed in
-chapter \ref{sec:back}.  Related works in the subject area are discussed in
-chapter \ref{sec:related}.  Chapter \ref{sec:design} describes the iterative
-redesigns of the scheduler module over the course of my thesis work.  The
-initial design of the scheduler module \cite{Agron:rt} is discussed in section
-\ref{sec:build1}.  The second redesign of the scheduler module is covered in
-section \ref{sec:build2}, which includes the work done to further reduce
-scheduling overhead and jitter.  Section \ref{sec:build3} covers the final
-scheduler module redesign which extends thread management and scheduling
-services to both hardware and software-based threads in the HybridThreads
-system.  Performance results of the various versions of the scheduler module,
-both as an independent entity and actual integrated performance measurements
-are shown in chapter \ref{sec:results}.  The evaluation of the design and
-implementation of the scheduler module, and comments on future work to be done
-on the scheduler module and other components within HybridThreads, a
-multithreaded RTOS kernel
-\cite{andrews04a,andrews04b,niehaus03,etfa05,Peck:dq}, are discussed in chapter
-\ref{sec:conc}.
-
+\\ In this Paper, we propose to use two scale and rotation invariant feature detectors, i.e. SIFT (scale invariant feature transform) and SURF (speed up robust features), for ear recognition. Both SIFT and SURF extract specific interest points from an image and generate descriptors for the feature points to a form a reliable matching results.\\
+%Path in Mac Format
+\begin{figure}[t]
+	\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+	\includegraphics[width=\textwidth]{Figures/Figure1}
+	\caption{The pipeline of the proposed Ear Recognition System}
+	\label{fig:Figure1}
+\end{figure}
+\\Extensive experiments have been carried out on two different sets of databases to eval- uate their performance with respect to various rotations and scales. One of the most important feature of ear images is its easiness in acquisition, however, the acquired images may be in different scales, rotations, and illumination. The scale and rotation invariant property of the SIFT and SURF algorithms makes them perfect for ear authentication under various circumstances.
+\\The rest of the paper is organized as follows. Some background and related research are discussed in Section 2; the proposed method is presented in details in Section 3; some experimental results and analysis are given in Section 4; and the paper is concluded in Section 5.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 MAR 2016 03:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 MAR 2016 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -319,29 +319,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--99
 ] (./introduction.tex
 Chapter 1.
 
-LaTeX Warning: Citation `Agron:rt' on page 1 undefined on input line 10.
+LaTeX Warning: Citation `pflug2012ear' on page 1 undefined on input line 1.
 
 
-LaTeX Warning: Reference `sec:build1' on page 1 undefined on input line 11.
+! LaTeX Error: There's no line here to end.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \\H
+       uman ear contains rich and stable features which are more reliable th...
 
-LaTeX Warning: Citation `andrews04a' on page 1 undefined on input line 22.
-
-
-LaTeX Warning: Citation `andrews04b' on page 1 undefined on input line 22.
-
-
-LaTeX Warning: Citation `niehaus03' on page 1 undefined on input line 22.
-
-
-LaTeX Warning: Citation `etfa05' on page 1 undefined on input line 22.
-
-
-LaTeX Warning: Citation `Peck:dq' on page 1 undefined on input line 22.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 [1
 
-]) (./problem.tex [2]
+]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \\ I
+        n this Paper, we propose to use two scale and rotation invariant fea...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<Figures/Figure1.png, id=32, 569.12625pt x 165.61874pt>
+File: Figures/Figure1.png Graphic file (type png)
+
+<use Figures/Figure1.png>
+Package pdftex.def Info: Figures/Figure1.png used on input line 9.
+(pdftex.def)             Requested size: 415.55249pt x 120.93352pt.
+) (./problem.tex [2 <./Figures/Figure1.png>]
 Chapter 2.
 ) (./background.tex [3
 
@@ -406,9 +423,9 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3243 strings out of 493089
- 43123 string characters out of 6134842
- 111779 words of memory out of 5000000
+ 3246 strings out of 493089
+ 43206 string characters out of 6134842
+ 111789 words of memory out of 5000000
  6592 multiletter control sequences out of 15000+600000
  14133 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -421,10 +438,10 @@ sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (20 pages, 111026 bytes).
+Output written on thesis.pdf (20 pages, 336480 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
