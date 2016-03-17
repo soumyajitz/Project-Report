@@ -4,19 +4,20 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {chapter}{\numberline {2}Statement of the Problem}{4}
 \contentsline {section}{\numberline {2.1}Types of Biometrics}{4}
-\contentsline {section}{\numberline {2.2}Purpose of Biometric Recognition}{4}
-\contentsline {section}{\numberline {2.3}Contributions of this Project}{4}
-\contentsline {chapter}{\numberline {3}Background}{5}
-\contentsline {chapter}{\numberline {4}Related Works}{6}
-\contentsline {chapter}{\numberline {5}Design of Proposed Approach}{7}
-\contentsline {section}{\numberline {5.1}Traditional Approach}{7}
-\contentsline {section}{\numberline {5.2}SIFT and SURF Descriptor}{10}
-\contentsline {section}{\numberline {5.3}Training Model}{10}
-\contentsline {section}{\numberline {5.4}Deep Learning Approach}{11}
-\contentsline {section}{\numberline {5.5}Convolution Neural Network}{11}
-\contentsline {section}{\numberline {5.6}Our Deep Network and Model}{11}
-\contentsline {chapter}{\numberline {6}Implementation Results}{12}
-\contentsline {section}{\numberline {6.1}Results of the Traditional Approach}{12}
-\contentsline {section}{\numberline {6.2}Results of the Deep Approach}{13}
-\contentsline {section}{\numberline {6.3}Comparison of the Approaches}{13}
-\contentsline {chapter}{\numberline {7}Conclusion}{14}
+\contentsline {section}{\numberline {2.2}Purpose of Biometric Ear Recognition}{5}
+\contentsline {section}{\numberline {2.3}Contributions of this Project}{5}
+\contentsline {chapter}{\numberline {3}Background}{6}
+\contentsline {chapter}{\numberline {4}Related Works}{7}
+\contentsline {chapter}{\numberline {5}Design of Proposed Approach}{8}
+\contentsline {section}{\numberline {5.1}Traditional Approach}{8}
+\contentsline {section}{\numberline {5.2}SIFT and SURF Descriptor}{11}
+\contentsline {section}{\numberline {5.3}Training Model}{11}
+\contentsline {section}{\numberline {5.4}Deep Learning Approach}{12}
+\contentsline {section}{\numberline {5.5}Convolution Neural Network}{12}
+\contentsline {section}{\numberline {5.6}Our Deep Network and Model}{12}
+\contentsline {chapter}{\numberline {6}Implementation Results}{13}
+\contentsline {section}{\numberline {6.1}Results of the Traditional Approach}{13}
+\contentsline {section}{\numberline {6.2}Results of the Deep Approach}{14}
+\contentsline {section}{\numberline {6.3}Comparison of the Approaches}{14}
+\contentsline {chapter}{\numberline {7}Conclusion}{15}
+\contentsline {chapter}{Bibliography}{16}
