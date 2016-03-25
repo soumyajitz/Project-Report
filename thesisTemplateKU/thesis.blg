@@ -3,50 +3,48 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: ref1.bib
-Warning--I didn't find a database entry for "yodaiken99rtlinux"
-Warning--I didn't find a database entry for "Andrews:2004wu"
 Warning--I didn't find a database entry for "xilinx"
 Warning--I didn't find a database entry for "Zhou:OSframe"
 Warning--I didn't find a database entry for "wiki"
-You've used 3 entries,
+You've used 5 entries,
             1876 wiz_defined-function locations,
-            505 strings with 4017 characters,
-and the built_in function-call counts, 938 in all, are:
-= -- 97
-> -- 33
+            516 strings with 4379 characters,
+and the built_in function-call counts, 1533 in all, are:
+= -- 154
+> -- 52
 < -- 0
-+ -- 12
-- -- 9
-* -- 70
-:= -- 138
-add.period$ -- 3
-call.type$ -- 3
-change.case$ -- 3
++ -- 19
+- -- 14
+* -- 108
+:= -- 214
+add.period$ -- 5
+call.type$ -- 5
+change.case$ -- 5
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 47
-empty$ -- 81
-format.name$ -- 9
-if$ -- 227
+cite$ -- 5
+duplicate$ -- 84
+empty$ -- 145
+format.name$ -- 14
+if$ -- 378
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 3
-newline$ -- 12
-num.names$ -- 3
-pop$ -- 4
+int.to.str$ -- 5
+missing$ -- 5
+newline$ -- 18
+num.names$ -- 5
+pop$ -- 17
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 37
+skip$ -- 62
 stack$ -- 0
-substring$ -- 68
-swap$ -- 23
+substring$ -- 104
+swap$ -- 37
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 10
-width$ -- 4
-write$ -- 35
-(There were 5 warnings)
+while$ -- 16
+width$ -- 6
+write$ -- 55
+(There were 3 warnings)

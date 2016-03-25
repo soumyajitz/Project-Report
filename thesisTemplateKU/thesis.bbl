@@ -15,4 +15,15 @@ A.~Tariq and M.~U. Akram, ``Personal identification using ear recognition,''
   {\em TELKOMNIKA (Telecommunication Computing Electronics and Control)},
   vol.~10, no.~2, pp.~321--326, 2012.
 
+\bibitem{harris}
+C.~Harris and M.~Stephens, ``A combined corner and edge detector.,'' in {\em
+  Alvey vision conference}, vol.~15, p.~50, Citeseer, 1988.
+
+\bibitem{sarkar}
+S.~Sarkar, J.~Liu, and G.~Wang, ``Biometric analysis of human ear matching
+  using scale and rotation invariant feature detectors,'' in {\em Image
+  Analysis and Recognition - 12th International Conference, {ICIAR}2015,
+  Niagara Falls, ON, Canada, July 22-24, 2015, Proceedings}, pp.~186--193,
+  2015.
+
 \end{thebibliography}

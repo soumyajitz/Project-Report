@@ -1,10 +1,13 @@
 \select@language {english}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces The pipeline of the proposed Ear Recognition System}}{2}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The pipeline of the proposed Ear Recognition System\relax }}{2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Characteristics of Human Ear\cite {pflug2012ear}}}{6}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Characteristics of Human Ear\cite {pflug2012ear}\relax }}{6}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Ear Image Enhancement\relax }}{11}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Histogram of Original Image\relax }}{12}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Histogram of Enhanced Image\relax }}{12}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
