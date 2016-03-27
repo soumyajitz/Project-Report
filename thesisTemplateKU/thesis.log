@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 MAR 2016 20:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 MAR 2016 18:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -344,20 +344,15 @@ Package pdftex.def Info: Figures/Figure1.png used on input line 9.
 (pdftex.def)             Requested size: 415.55249pt x 120.93352pt.
 ) (./problem.tex [2 <./Figures/Figure1.png>] [3]
 Chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
 [4
 
-] [5] <Figures/Figure2.png, id=49, 553.06625pt x 370.38374pt>
+] <Figures/Figure2.png, id=46, 553.06625pt x 370.38374pt>
 File: Figures/Figure2.png Graphic file (type png)
 
 <use Figures/Figure2.png>
 Package pdftex.def Info: Figures/Figure2.png used on input line 17.
 (pdftex.def)             Requested size: 415.55249pt x 278.2901pt.
- [6 <./Figures/Figure2.png>]) (./background.tex
+ [5] [6 <./Figures/Figure2.png>]) (./background.tex
 [7]
 Chapter 3.
 ) (./related.tex [8
@@ -386,49 +381,88 @@ File: Figures/Figure5.png Graphic file (type png)
 
 <use Figures/Figure5.png>
 Package pdftex.def Info: Figures/Figure5.png used on input line 27.
-(pdftex.def)             Requested size: 83.10922pt x 63.32234pt.
+(pdftex.def)             Requested size: 103.88812pt x 79.15292pt.
 
 <Figures/Figure6.png, id=70, 210.7875pt x 158.5925pt>
 File: Figures/Figure6.png Graphic file (type png)
 
 <use Figures/Figure6.png>
 Package pdftex.def Info: Figures/Figure6.png used on input line 33.
-(pdftex.def)             Requested size: 83.10922pt x 62.5308pt.
+(pdftex.def)             Requested size: 103.88812pt x 78.16351pt.
 
-Underfull \hbox (badness 1112) in paragraph at lines 34--34
-[]\OT1/cmr/bx/n/10.95 Figure 5.3. \OT1/cmr/m/n/10.95 His-togram of En-
- []
+<Figures/Figure7.png, id=71, 119.44624pt x 165.61874pt>
+File: Figures/Figure7.png Graphic file (type png)
 
-[11
+<use Figures/Figure7.png>
+Package pdftex.def Info: Figures/Figure7.png used on input line 45.
+(pdftex.def)             Requested size: 83.10922pt x 115.23483pt.
+ <Figures/Figure8.png, id=72, 116.435pt x 162.6075pt>
+File: Figures/Figure8.png Graphic file (type png)
 
- <./Figures/Figure3.png> <./Figures/Figure4.png>]) (./build2.tex)
-(./build3.tex [12 <./Figures/Figure5.png> <./Figures/Figure6.png>])
-(./build4.tex) (./build5.tex) (./build6.tex)) (./results.tex [13]
+<use Figures/Figure8.png>
+Package pdftex.def Info: Figures/Figure8.png used on input line 51.
+(pdftex.def)             Requested size: 83.10922pt x 116.06995pt.
+ [11
+
+ <./Figures/Figure3.png> <./Figures/Figure4.png>]) (./build2.tex [12 <./Figures
+/Figure5.png> <./Figures/Figure6.png> <./Figures/Figure7.png> <./Figures/Figure
+8.png>] [13]
+<Figures/Figure9.png, id=89, 630.355pt x 207.77625pt>
+File: Figures/Figure9.png Graphic file (type png)
+
+<use Figures/Figure9.png>
+Package pdftex.def Info: Figures/Figure9.png used on input line 21.
+(pdftex.def)             Requested size: 415.55249pt x 136.97421pt.
+Missing character: There is no Ï in font cmr12!
+Missing character: There is no ƒ in font cmr12!
+ [14 <./Figures/Figure9.png>]
+<Figures/Figure11.png, id=98, 268.00125pt x 205.76875pt>
+File: Figures/Figure11.png Graphic file (type png)
+
+<use Figures/Figure11.png>
+Package pdftex.def Info: Figures/Figure11.png used on input line 47.
+(pdftex.def)             Requested size: 103.88812pt x 79.76282pt.
+ <Figures/Figure12.png, id=99, 176.66pt x 196.735pt>
+File: Figures/Figure12.png Graphic file (type png)
+
+<use Figures/Figure12.png>
+Package pdftex.def Info: Figures/Figure12.png used on input line 52.
+(pdftex.def)             Requested size: 103.88812pt x 115.69438pt.
+) (./build3.tex [15]
+<Figures/Figure10.png, id=103, 242.9075pt x 197.73875pt>
+File: Figures/Figure10.png Graphic file (type png)
+
+<use Figures/Figure10.png>
+Package pdftex.def Info: Figures/Figure10.png used on input line 6.
+(pdftex.def)             Requested size: 207.77625pt x 169.13777pt.
+ [16 <./Figures/Figure11.png> <./Figures/Figure12.png> <./Figures/Figure10.png>
+]) (./build4.tex) (./build5.tex) (./build6.tex))
+(./results.tex [17]
 Chapter 6.
-(./results1.tex) (./results2.tex [14
+(./results1.tex) (./results2.tex [18
 
 ]
 
-LaTeX Warning: Citation `xilinx' on page 15 undefined on input line 5.
+LaTeX Warning: Citation `xilinx' on page 19 undefined on input line 5.
 
 ) (./results3.tex
 
-LaTeX Warning: Citation `xilinx' on page 15 undefined on input line 5.
+LaTeX Warning: Citation `xilinx' on page 19 undefined on input line 5.
 
-)) (./conclusion.tex [15]
+)) (./conclusion.tex [19]
 Chapter 7.
 
-LaTeX Warning: Citation `xilinx' on page 16 undefined on input line 6.
+LaTeX Warning: Citation `xilinx' on page 20 undefined on input line 6.
 
 
-LaTeX Warning: Citation `Zhou:OSframe' on page 16 undefined on input line 10.
+LaTeX Warning: Citation `Zhou:OSframe' on page 20 undefined on input line 10.
 
 
-LaTeX Warning: Citation `wiki' on page 16 undefined on input line 12.
+LaTeX Warning: Citation `wiki' on page 20 undefined on input line 12.
 
-) (./thesis.bbl [16
+) (./thesis.bbl [20
 
-]) [17
+]) [21
 
 
 ] (./thesis.aux)
@@ -437,24 +471,27 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4313 strings out of 493089
- 62648 string characters out of 6134842
- 128258 words of memory out of 5000000
- 7652 multiletter control sequences out of 15000+600000
+ 4358 strings out of 493089
+ 63485 string characters out of 6134842
+ 131469 words of memory out of 5000000
+ 7691 multiletter control sequences out of 15000+600000
  14311 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,38p,1453b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,10n,38p,1453b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (24 pages, 884040 bytes).
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis.pdf (28 pages, 2805414 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 159 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

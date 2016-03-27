@@ -17,29 +17,66 @@ Real-life ear images can be acquired in various formats with different scaling a
   \label{fig:sub2}
 \end{subfigure}
 \caption{Ear Image Enhancement}
-\label{fig:test}
+\label{fig:test1}
 \end{figure}
 
 \begin{figure}
 \centering
-\begin{minipage}{.5\textwidth}
+\begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.4\linewidth]{Figures/Figure5}
-  \captionof{figure}{Histogram of Original Image}
-  \label{fig:test1}
-\end{minipage}%
-\begin{minipage}{.5\textwidth}
+  \includegraphics[width=.5\linewidth]{Figures/Figure5}
+  \caption{Histogram of Original Image}
+  \label{fig:sub3}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.4\linewidth]{Figures/Figure6}
-  \captionof{figure}{Histogram of Enhanced Image}
-  \label{fig:test2}
-\end{minipage}
+  \includegraphics[width=.5\linewidth]{Figures/Figure6}
+  \caption{Histogram of Enhanced Image}
+  \label{fig:sub4}
+\end{subfigure}
+\caption{Histogram of Enhanced Image}
+\label{fig:test2}
 \end{figure}
 
+\begin{figure}
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.4\linewidth]{Figures/Figure7}
+  \caption{10 SIFT features detected in the original image}
+  \label{fig:sub5}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.4\linewidth]{Figures/Figure8}
+  \caption{32 SIFT features detected in the original image}
+  \label{fig:sub6}
+\end{subfigure}
+\caption{Histogram of Enhanced Image}
+\label{fig:test}
+\end{figure}
+
+%\begin{figure}
+%\centering
+%\begin{minipage}{.5\textwidth}
+%  \centering
+%  \includegraphics[width=.4\linewidth]{Figures/Figure}
+%  \captionof{figure}{Histogram of Original Image}
+%  \label{fig:test1}
+%\end{minipage}%
+%\begin{minipage}{.5\textwidth}
+%  \centering
+%  \includegraphics[width=.4\linewidth]{Figures/Figure6}
+%  \captionof{figure}{Histogram of Enhanced Image}
+%  \label{fig:test2}
+%\end{minipage}
+%\end{figure}
 
 
-The ear enhancement process starts with contrast enhancement, where we apply histo- gram equalization to improve the contrast in an image in order to stretch out its intensity range, from which, we get an enhanced version of the original image by maximizing the contrast level of an image, as shown in
 
+The ear enhancement process starts with contrast enhancement, where we apply histo- gram equalization to improve the contrast in an image in order to stretch out its intensity range, from which, we get an enhanced version of the original image by maximizing the contrast level of an image, as shown in Figure \ref{fig:test1} 
+
+Feature Extraction is the process of extracting salient features from the image, and each feature is described by a vector which summarizes the required information for that point [2]. Features are extracted exclusively in order for the image to be matched with the features of the input image to authenticate the ear so that a decision can be made. In this paper, two rotation and scale invariant features are studied.The details are being discussed in the next section.
 
  table \ref{tab:commands1}.
 
