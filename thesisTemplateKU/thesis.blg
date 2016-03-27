@@ -4,11 +4,9 @@ The top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: ref1.bib
 Warning--I didn't find a database entry for "xilinx"
-Warning--I didn't find a database entry for "Zhou:OSframe"
-Warning--I didn't find a database entry for "wiki"
 You've used 5 entries,
             1876 wiz_defined-function locations,
-            516 strings with 4379 characters,
+            513 strings with 4351 characters,
 and the built_in function-call counts, 1533 in all, are:
 = -- 154
 > -- 52
@@ -47,4 +45,4 @@ warning$ -- 0
 while$ -- 16
 width$ -- 6
 write$ -- 55
-(There were 3 warnings)
+(There was 1 warning)

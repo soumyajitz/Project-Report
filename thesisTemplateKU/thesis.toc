@@ -17,7 +17,7 @@
 \contentsline {section}{\numberline {5.6}Our Deep Network and Model}{17}
 \contentsline {chapter}{\numberline {6}Implementation Results}{18}
 \contentsline {section}{\numberline {6.1}Results of the Traditional Approach}{18}
-\contentsline {section}{\numberline {6.2}Results of the Deep Approach}{19}
-\contentsline {section}{\numberline {6.3}Comparison of the Approaches}{19}
-\contentsline {chapter}{\numberline {7}Conclusion}{20}
-\contentsline {chapter}{Bibliography}{21}
+\contentsline {section}{\numberline {6.2}Results of the Deep Approach}{20}
+\contentsline {section}{\numberline {6.3}Comparison of the Approaches}{20}
+\contentsline {chapter}{\numberline {7}Conclusion}{21}
+\contentsline {chapter}{Bibliography}{22}
