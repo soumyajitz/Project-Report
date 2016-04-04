@@ -1,22 +1,23 @@
 \select@language {english}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces The pipeline of the proposed Ear Recognition System\relax }}{2}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The pipeline of the proposed Ear Recognition System\relax }}{3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Characteristics of Human Ear\cite {pflug2012ear}\relax }}{6}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Characteristics of Human Ear\cite {pflug2012ear}\relax }}{7}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Ear Image Enhancement\relax }}{11}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Histogram of Enhanced Image\relax }}{12}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Histogram of Enhanced Image\relax }}{12}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces The detected SURF features (left) and matching result under rotation (middle) and scale change (right)\relax }}{14}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces The matching results of SIFT detectors under rotation (left) and scale change (right)\relax }}{16}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces The matching results of SURF detector\relax }}{16}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces The matching results of SIFT detector\relax }}{17}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Multi-class SVM(from [libSVM paper])\relax }}{17}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces LeNet Network Diagram\relax }}{26}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Ear Image Enhancement\relax }}{14}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Histogram of Enhanced Image\relax }}{15}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Histogram of Enhanced Image\relax }}{15}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces The detected SURF features (left) and matching result under rotation (middle) and scale change (right)\relax }}{17}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces The matching results of SIFT detectors under rotation (left) and scale change (right)\relax }}{18}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces The matching results of SURF detector\relax }}{19}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces The matching results of SIFT detector\relax }}{20}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Multi-class SVM(from [libSVM paper])\relax }}{20}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces LeNet Network Diagram\relax }}{29}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Typical CNN Network\relax }}{30}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces A comparison result of the detected and matched keypoints by SURF and SIFT\relax }}{29}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Sample Images from IIT Delhi Ear Dataset\relax }}{30}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Sample Images from AMI Ear Dataset\relax }}{30}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces A comparison result of the detected and matched keypoints by SURF and SIFT\relax }}{34}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Sample Images from IIT Delhi Ear Dataset\relax }}{35}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Sample Images from AMI Ear Dataset\relax }}{35}
 \addvspace {10\p@ }

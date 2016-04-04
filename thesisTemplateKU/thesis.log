@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  29 MAR 2016 10:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 APR 2016 01:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -370,138 +370,152 @@ Chapter 1.
 File: Figures/Figure1.png Graphic file (type png)
 
 <use Figures/Figure1.png>
-Package pdftex.def Info: Figures/Figure1.png used on input line 9.
+Package pdftex.def Info: Figures/Figure1.png used on input line 15.
 (pdftex.def)             Requested size: 415.55249pt x 120.93352pt.
-) (./problem.tex [2 <./Figures/Figure1.png>] [3]
+ [2] [3 <./Figures/Figure1.png>]) (./problem.tex
+[4]
 Chapter 2.
-[4
+[5
 
-] <Figures/Figure2.png, id=46, 553.06625pt x 370.38374pt>
+] <Figures/Figure2.png, id=49, 553.06625pt x 370.38374pt>
 File: Figures/Figure2.png Graphic file (type png)
 
 <use Figures/Figure2.png>
 Package pdftex.def Info: Figures/Figure2.png used on input line 17.
 (pdftex.def)             Requested size: 415.55249pt x 278.2901pt.
- [5] [6 <./Figures/Figure2.png>]) (./background.tex
-[7]
+ [6] [7 <./Figures/Figure2.png>]) (./background.tex
+[8]
 Chapter 3.
-) (./related.tex [8
+[9
 
-] [9]
+] [10]) (./related.tex [11]
 Chapter 4.
-) (./design.tex [10
+) (./design.tex [12
 
-]
+] [13]
 Chapter 5.
-(./build1.tex <Figures/Figure3.png, id=67, 120.45pt x 144.54pt>
+(./build1.tex <Figures/Figure3.png, id=77, 120.45pt x 144.54pt>
 File: Figures/Figure3.png Graphic file (type png)
 
 <use Figures/Figure3.png>
 Package pdftex.def Info: Figures/Figure3.png used on input line 9.
 (pdftex.def)             Requested size: 83.10922pt x 99.73268pt.
 
-<Figures/Figure4.png, id=68, 115.43124pt x 139.52126pt>
+<Figures/Figure4.png, id=78, 115.43124pt x 139.52126pt>
 File: Figures/Figure4.png Graphic file (type png)
 
 <use Figures/Figure4.png>
 Package pdftex.def Info: Figures/Figure4.png used on input line 15.
 (pdftex.def)             Requested size: 83.10922pt x 100.45308pt.
- <Figures/Figure5.png, id=69, 210.7875pt x 160.6pt>
+ <Figures/Figure5.png, id=79, 210.7875pt x 160.6pt>
 File: Figures/Figure5.png Graphic file (type png)
 
 <use Figures/Figure5.png>
 Package pdftex.def Info: Figures/Figure5.png used on input line 27.
 (pdftex.def)             Requested size: 103.88812pt x 79.15292pt.
 
-<Figures/Figure6.png, id=70, 210.7875pt x 158.5925pt>
+<Figures/Figure6.png, id=80, 210.7875pt x 158.5925pt>
 File: Figures/Figure6.png Graphic file (type png)
 
 <use Figures/Figure6.png>
 Package pdftex.def Info: Figures/Figure6.png used on input line 33.
 (pdftex.def)             Requested size: 103.88812pt x 78.16351pt.
 
-<Figures/Figure7.png, id=71, 119.44624pt x 165.61874pt>
+<Figures/Figure7.png, id=81, 119.44624pt x 165.61874pt>
 File: Figures/Figure7.png Graphic file (type png)
 
 <use Figures/Figure7.png>
 Package pdftex.def Info: Figures/Figure7.png used on input line 45.
 (pdftex.def)             Requested size: 83.10922pt x 115.23483pt.
- <Figures/Figure8.png, id=72, 116.435pt x 162.6075pt>
+ <Figures/Figure8.png, id=82, 116.435pt x 162.6075pt>
 File: Figures/Figure8.png Graphic file (type png)
 
 <use Figures/Figure8.png>
 Package pdftex.def Info: Figures/Figure8.png used on input line 51.
 (pdftex.def)             Requested size: 83.10922pt x 116.06995pt.
- [11
+ [14
 
- <./Figures/Figure3.png> <./Figures/Figure4.png>]) (./build2.tex [12 <./Figures
+ <./Figures/Figure3.png> <./Figures/Figure4.png>]) (./build2.tex [15 <./Figures
 /Figure5.png> <./Figures/Figure6.png> <./Figures/Figure7.png> <./Figures/Figure
-8.png>] [13]
-<Figures/Figure9.png, id=89, 630.355pt x 207.77625pt>
+8.png>]
+<Figures/Figure9.png, id=95, 630.355pt x 207.77625pt>
 File: Figures/Figure9.png Graphic file (type png)
 
 <use Figures/Figure9.png>
 Package pdftex.def Info: Figures/Figure9.png used on input line 21.
 (pdftex.def)             Requested size: 415.55249pt x 136.97421pt.
+ [16]
 Missing character: There is no Ï in font cmr12!
 Missing character: There is no ƒ in font cmr12!
- [14 <./Figures/Figure9.png>]
-<Figures/Figure11.png, id=98, 268.00125pt x 205.76875pt>
+ [17 <./Figures/Figure9.png>]
+<Figures/Figure11.png, id=107, 268.00125pt x 205.76875pt>
 File: Figures/Figure11.png Graphic file (type png)
 
 <use Figures/Figure11.png>
 Package pdftex.def Info: Figures/Figure11.png used on input line 47.
 (pdftex.def)             Requested size: 103.88812pt x 79.76282pt.
- <Figures/Figure12.png, id=99, 176.66pt x 196.735pt>
+
+<Figures/Figure12.png, id=108, 176.66pt x 196.735pt>
 File: Figures/Figure12.png Graphic file (type png)
 
 <use Figures/Figure12.png>
 Package pdftex.def Info: Figures/Figure12.png used on input line 52.
 (pdftex.def)             Requested size: 103.88812pt x 115.69438pt.
-) (./build3.tex [15]
-<Figures/Figure15.png, id=103, 191.71625pt x 259.97125pt>
+) (./build3.tex
+<Figures/Figure15.png, id=109, 191.71625pt x 259.97125pt>
 File: Figures/Figure15.png Graphic file (type png)
 
 <use Figures/Figure15.png>
 Package pdftex.def Info: Figures/Figure15.png used on input line 6.
 (pdftex.def)             Requested size: 207.77625pt x 281.7644pt.
-
-<Figures/Figure16.png, id=104, 286.06876pt x 250.9375pt>
+ [18 <./Figures/Figure11.png> <./Figures/Figure12.png>] <Figures/Figure16.png, 
+id=116, 286.06876pt x 250.9375pt>
 File: Figures/Figure16.png Graphic file (type png)
 
 <use Figures/Figure16.png>
 Package pdftex.def Info: Figures/Figure16.png used on input line 15.
 (pdftex.def)             Requested size: 207.77625pt x 182.26006pt.
 
-<Figures/Figure10.png, id=105, 242.9075pt x 197.73875pt>
+<Figures/Figure10.png, id=117, 242.9075pt x 197.73875pt>
 File: Figures/Figure10.png Graphic file (type png)
 
 <use Figures/Figure10.png>
 Package pdftex.def Info: Figures/Figure10.png used on input line 25.
 (pdftex.def)             Requested size: 207.77625pt x 169.13777pt.
- [16 <./Figures/Figure11.png> <./Figures/Figure12.png> <./Figures/Figure15.png>
-] [17 <./Figures/Figure16.png> <./Figures/Figure10.png>]) (./build4.tex [18] [1
-9] [20]
+ [19 <./Figures/Figure15.png>] [20 <./Figures/Figure16.png> <./Figures/Figure10
+.png>]) (./build4.tex [21] [22]
 
 Package Listings Warning: Text dropped after begin of listing on input line 23.
 
 
-
+[23]
 Overfull \hbox (0.39679pt too wide) in paragraph at lines 28--29
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[21] [22] [23] [24] [25]
-<Figures/Figure18.png, id=144, 1035.87pt x 118.4425pt>
+[24] [25] [26] [27] [28]
+<Figures/Figure18.png, id=153, 1035.87pt x 118.4425pt>
 File: Figures/Figure18.png Graphic file (type png)
 
 <use Figures/Figure18.png>
 Package pdftex.def Info: Figures/Figure18.png used on input line 157.
 (pdftex.def)             Requested size: 415.55249pt x 47.5153pt.
-) (./build5.tex) (./build6.tex)) (./results.tex
-[26 <./Figures/Figure18.png>]
+) (./build5.tex
+Overfull \hbox (0.47107pt too wide) in paragraph at lines 3--4
+[]\OT1/cmr/m/n/12 Convolution Neu-ral Net-work [CNN Pa-per] com-bine dif-fer-en
+t ar-chi-tec-tural ideas
+ []
+
+[29 <./Figures/Figure18.png>]
+<Figures/Figure19.png, id=158, 910.40125pt x 299.1175pt>
+File: Figures/Figure19.png Graphic file (type png)
+
+<use Figures/Figure19.png>
+Package pdftex.def Info: Figures/Figure19.png used on input line 12.
+(pdftex.def)             Requested size: 415.55249pt x 136.53226pt.
+) (./build6.tex)) (./results.tex [30 <./Figures/Figure19.png>] [31]
 Chapter 6.
-(./results1.tex [27
+(./results1.tex [32
 
 ]
 
@@ -517,21 +531,21 @@ Overfull \hbox (21.63693pt too wide) in paragraph at lines 39--54
  [][] 
  []
 
-[28] <Figures/Figure17.jpg, id=155, 787.94376pt x 420.57124pt>
+[33] <Figures/Figure17.jpg, id=173, 787.94376pt x 420.57124pt>
 File: Figures/Figure17.jpg Graphic file (type jpg)
 
 <use Figures/Figure17.jpg>
 Package pdftex.def Info: Figures/Figure17.jpg used on input line 60.
 (pdftex.def)             Requested size: 415.55249pt x 221.80432pt.
 
-<Figures/Figure13.png, id=156, 334.24875pt x 144.54pt>
+<Figures/Figure13.png, id=174, 334.24875pt x 144.54pt>
 File: Figures/Figure13.png Graphic file (type png)
 
 <use Figures/Figure13.png>
 Package pdftex.def Info: Figures/Figure13.png used on input line 68.
 (pdftex.def)             Requested size: 207.77625pt x 89.85205pt.
 
-<Figures/Figure14.png, id=157, 336.25626pt x 143.53625pt>
+<Figures/Figure14.png, id=175, 336.25626pt x 143.53625pt>
 File: Figures/Figure14.png Graphic file (type png)
 
 <use Figures/Figure14.png>
@@ -539,17 +553,17 @@ Package pdftex.def Info: Figures/Figure14.png used on input line 77.
 (pdftex.def)             Requested size: 207.77625pt x 88.69368pt.
 ) (./results2.tex
 
-LaTeX Warning: Citation `xilinx' on page 29 undefined on input line 5.
+LaTeX Warning: Citation `xilinx' on page 34 undefined on input line 5.
 
-[29 <./Figures/Figure17.jpg>]) (./results3.tex
+[34 <./Figures/Figure17.jpg>]) (./results3.tex
 
-LaTeX Warning: Citation `xilinx' on page 30 undefined on input line 5.
+LaTeX Warning: Citation `xilinx' on page 35 undefined on input line 5.
 
-)) (./conclusion.tex [30 <./Figures/Figure13.png> <./Figures/Figure14.png>]
+)) (./conclusion.tex [35 <./Figures/Figure13.png> <./Figures/Figure14.png>]
 Chapter 7.
-) (./thesis.bbl [31
+) (./thesis.bbl [36
 
-]) [32
+]) [37
 
 
 ] (./thesis.aux)
@@ -561,13 +575,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5568 strings out of 493089
- 81608 string characters out of 6134842
- 153176 words of memory out of 5000000
- 8882 multiletter control sequences out of 15000+600000
+ 5573 strings out of 493089
+ 81718 string characters out of 6134842
+ 155177 words of memory out of 5000000
+ 8886 multiletter control sequences out of 15000+600000
  14311 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,38p,1481b,1398s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,9n,38p,1481b,1398s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -579,10 +593,10 @@ cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (39 pages, 4312364 bytes).
+Output written on thesis.pdf (44 pages, 4464783 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
+ 230 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
