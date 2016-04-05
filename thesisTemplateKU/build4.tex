@@ -1,11 +1,21 @@
 \section{Deep Learning Approach} \label{sec:build4}
 
-Artificial Neural Networks was an idea conceived  in the 1960s to mimic the functions of the human brain in the way it absorbs information and learns from it. in order to  convert the whole notion into reality it took a lot more time than expected. The primary reason behind the delay is that back then, the computers were not powerful enough, the other reasons being the researchers were not totally aware of the problem. Then in 1986, eminent neural network researcher and computer scientist Dr. Geoffrey Hinton came up with the idea of backpropagation[hinton paper] where a Deep Neural Network could be trained discriminatively and the weight updates can be done via stochastic gradient descentusing the following equation.
+Artificial Neural Networks shown in Figure \ref{fig:Figure20} was an idea conceived  in the 1960s to mimic the functions of the human brain in the way it absorbs information and learns from it. in order to  convert the whole notion into reality it took a lot more time than expected. The primary reason behind the delay is that back then, the computers were not powerful enough, the other reasons being the researchers were not totally aware of the problem. Then in 1986, eminent neural network researcher and computer scientist Dr. Geoffrey Hinton came up with the idea of backpropagation[hinton paper] where a Deep Neural Network could be trained discriminatively and the weight updates can be done via stochastic gradient descentusing the following equation.
 
 \begin{center}
 	$w_{ij}(t+1) = w_{ij}(t) + \eta \frac{\partial C}{\partial w_{ij}}$
 \end{center}
 where $\eta$ s the learning rate, C is the cost function. The choice of the cost function depends on factors such as learning type whether it be supervised, unsupervised or reinforcement learning. 
+
+\begin{figure}[t]
+	\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{Figures/Figure20}
+	\end{center}
+	\caption{Artificial Neural Network with D input neurons and 1 output neuron} 
+	\label{fig:Figure20}
+\end{figure}
+
 
 The ability of multi-layer backpropagation[hinton backpropagation paper] networks has enabled the machines to learn complex high-dimensional non-linear mappings from large collections of example data which makes it obvious for visual recognition. In this method, rather than hand-crafting the various features, a raw image is first convoluted with a filter to find various feature maps. The feature maps are then connected together to form a fully-connected layer, the input of one layer is fed as the output of the next layer to create a deep network. The whole process rely on backpropagation to turn the first few layers into an appropriate feature extractor. Deep learning has achieved a lot of successes in the past for character recognition, digit recognition and recent works show that it is being applied to most topics of image representation and learning purposes. Just recently it has been applied to Face Recognition by training with lots of face image data and tremendous success has been reported[deep face paper].
 
@@ -16,6 +26,22 @@ Deep Learning research stopped even after all these breakthroughs because the co
 In our project we have used the Caffe Deep Learning Framework[Caffe Paper] for our purposes. The reason we choose Caffe is being described below:
 
 Caffe provides multimedia scientists and practitioners with a clean and modifiable framework for state of the art deep learning algorithms. It has a big collection of reference CNN models, it is licensed with BSD and is written in C++ and Python. Caffe can process upto 40 million images a day on a single NVIDIA K40. Caffe is maintained by Berkeley Vision and Learning Center(BVLC). Caffe makes it easy for users to build CNNs in their .prototxt file and also has several functions to draw networks and optimize them. It provides Pre-Trained models which is not provided by many of its competetitors. Caffe stores nd communicates data in 4-arrays called blobs for faster processing. Blobs provide a unified memory interface, holding batches of images , parameters or parameters updates. Blobs conceal the mental and mental overhead of mixed CPU/GPU operation by synchronizing from the CPU host to the CPU device as needed. 
+
+A key problem in multimedia data analysis is discovery of effective representations for sensory inputs—images, sound- waves, haptics, etc. While performance of conventional, handcrafted features has plateaued in recent years, new developments in deep compositional architectures have kept performance levels rising [8:caffe paper]. Deep models have outper- formed hand-engineered feature representations in many do- mains, and made learning possible in domains where engi- neered features were lacking entirely.
+We are particularly motivated by large-scale visual recog- nition, where a specific type of deep architecture has achieved a commanding lead on the state-of-the-art. These Con- volutional Neural Networks, or CNNs, are discriminatively trained via back-propagation through layers of convolutional filters and other operations such as rectification and pooling. Following the early success of digit classification in the 90’s, these models have recently surpassed all known methods for large-scale visual recognition, and have been adopted by in- dustry heavyweights such as Google, Facebook, and Baidu for image understanding and search.
+
+While deep neural networks have attracted enthusiastic interest within computer vision and beyond, replication of published results can involve months of work by a researcher or engineer. Sometimes researchers deem it worthwhile to release trained models along with the paper advertising their performance. But trained models alone are not sufficient for rapid research progress and emerging commercial applications, and few toolboxes offer truly off-the-shelf deployment of state-of-the-art models—and those that do are often not computationally efficient and thus unsuitable for commercial deployment.
+
+Caffe has several advantages over its peers. Caffe provides a complete toolkit for training, testing, finetuning, and deploying models, with well-documented examples for all of these tasks. As such, it’s an ideal starting point for researchers and other developers looking to jump into state-of-the-art machine learning. At the same time, it’s likely the fastest available implementation of these algorithms, making it immediately useful for industrial deployment.
+
+Some of the main features of Caffe are:\\
+\textbf{Modularity:} The software is designed from the begin- ning to be as modular as possible, allowing easy extension to new data formats, network layers, and loss functions. Lots of layers and loss functions are already implemented, and plentiful examples show how these are composed into train- able recognition systems for various tasks. \\
+
+ \textbf{Separation of representation and implementation:} Caffe model definitions are written as config files using the Protocol Buffer language. Caffe supports network archi- tectures in the form of arbitrary directed acyclic graphs. Upon instantiation, Caffe reserves exactly as much memory as needed for the network, and abstracts from its underly- ing location in host or GPU. Switching between a CPU and GPU implementation is exactly one function call. \\
+
+\textbf{Test coverage:} Every single module in Caffe has a test, and no new code is accepted into the project without corre- sponding tests. This allows rapid improvements and refac- toring of the codebase, and imparts a welcome feeling of peacefulness to the researchers using the code. \\
+
+\textbf{Python and MATLAB bindings:} For rapid proto- typing and interfacing with existing research code, Caffe provides Python and MATLAB bindings. Both languages may be used to construct networks and classify inputs. The Python bindings also expose the solver module for easy pro- totyping of new training procedures.
 
 Caffe Neural Network Model prototxt format is being shown below:
 

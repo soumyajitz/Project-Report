@@ -2,10 +2,6 @@
 
 Convolution Neural Network [CNN Paper] combine different architectural ideas to ensure  shift and distortion invariances. In the Figure \ref{fig:Figure19} below it  can be seen that the input plane receives images that are approximately size-normalized and centered. Each unit of a layer receives input from units which are located locally in the previous layer. With local fields, it becomes easier for the neurons to extract visual features such as oriented edges, corners etc, these features are then combined by the higher layer called feature maps. It is being stated that distortion or shift in inputs causes the position of the salient features to vary. 
 
-At each position, different types of units in different feature maps compute different types of features. A convolution layer is usually composed of several feature maps and as a matter of fact multiple features can be extracted at each location. The hidden layer in Figure \ref{fig:Figure19} has 4 feature maps with 5 by 5 receptive fields. Shifting the input of a convolution layer will shift the output. After detecting a feature, its location becomes less important as long as its relative position to other features is preserved. Thus, each convolution layer is followed by an additional layer while is called the pooling layer and it performs the subsampling and local averaging, thereby reducing the resolution of the feature map which reduces the effect to shifts and distortions. The second layer performs a 2 X 2 averaging and subsampling, followed by a trainable coefficient, a trainable bias , and a bias. The trainable coefficient and bias controls the effect of non-linearity. Then alternating layers of subsampling and convolutions are created successively where at each layer the number of feature maps are increased but the spatial resolution is decreased. The feature maps are then connected to form a fully-connected layer which is being fed into the softmax regression layer for classification purposes. All the weights are learned in the respective layers with back-propagation.
-
-In recent times, Convolution Neural Networks(CNNs) have almost been used in all applications ranging from the popular ImageNet Large Scale Visual Recognition Challenge(ILSVRC) to various Recognition algorithms. It has taken the computer vision society by storm, improving the state of the art in many applications. Tremendous results have been obtained in tremendous large scale databases in recent times.
-
 \begin{figure}[t]
 	\DeclareGraphicsExtensions{.pdf,.png,.jpg}
 	\begin{center}
@@ -14,3 +10,13 @@ In recent times, Convolution Neural Networks(CNNs) have almost been used in all 
 	\caption{Typical CNN Network}
 	\label{fig:Figure19}
 \end{figure}
+
+
+At each position, different types of units in different feature maps compute different types of features. A convolution layer is usually composed of several feature maps and as a matter of fact multiple features can be extracted at each location. The hidden layer in Figure \ref{fig:Figure19} has 4 feature maps with 5 by 5 receptive fields. Shifting the input of a convolution layer will shift the output. After detecting a feature, its location becomes less important as long as its relative position to other features is preserved. Thus, each convolution layer is followed by an additional layer while is called the pooling layer and it performs the subsampling and local averaging, thereby reducing the resolution of the feature map which reduces the effect to shifts and distortions. The second layer performs a 2 X 2 averaging and subsampling, followed by a trainable coefficient, a trainable bias , and a bias. The trainable coefficient and bias controls the effect of non-linearity. Then alternating layers of subsampling and convolutions are created successively where at each layer the number of feature maps are increased but the spatial resolution is decreased. The feature maps are then connected to form a fully-connected layer which is being fed into the softmax regression layer for classification purposes. All the weights are learned in the respective layers with back-propagation.
+
+In recent times, Convolution Neural Networks(CNNs) have almost been used in all applications ranging from the popular ImageNet Large Scale Visual Recognition Challenge(ILSVRC) to various Recognition algorithms. It has taken the computer vision society by storm, improving the state of the art in many applications. Tremendous results have been obtained in tremendous large scale databases in recent times.
+
+
+
+
+
