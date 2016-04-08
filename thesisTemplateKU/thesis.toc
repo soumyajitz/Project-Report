@@ -14,10 +14,10 @@
 \contentsline {section}{\numberline {5.3}Training Model}{22}
 \contentsline {section}{\numberline {5.4}Deep Learning Approach}{25}
 \contentsline {section}{\numberline {5.5}Convolution Neural Network}{36}
-\contentsline {section}{\numberline {5.6}Our Deep Network and Model}{38}
-\contentsline {chapter}{\numberline {6}Implementation Results}{39}
-\contentsline {section}{\numberline {6.1}Results of the Traditional Approach}{39}
-\contentsline {section}{\numberline {6.2}Results of the Deep Approach}{41}
-\contentsline {section}{\numberline {6.3}Comparison of the Approaches}{42}
-\contentsline {chapter}{\numberline {7}Conclusion}{43}
-\contentsline {chapter}{Bibliography}{45}
+\contentsline {section}{\numberline {5.6}Our Deep Network and Model}{39}
+\contentsline {chapter}{\numberline {6}Implementation Results}{40}
+\contentsline {section}{\numberline {6.1}Results of the Traditional Approach}{40}
+\contentsline {section}{\numberline {6.2}Results of the Deep Approach}{42}
+\contentsline {section}{\numberline {6.3}Comparison of the Approaches}{43}
+\contentsline {chapter}{\numberline {7}Conclusion}{44}
+\contentsline {chapter}{Bibliography}{46}

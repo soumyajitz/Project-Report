@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 APR 2016 13:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 APR 2016 12:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -564,10 +564,22 @@ File: Figures/Figure19.png Graphic file (type png)
 <use Figures/Figure19.png>
 Package pdftex.def Info: Figures/Figure19.png used on input line 8.
 (pdftex.def)             Requested size: 415.55249pt x 136.53226pt.
- [36 <./Figures/Figure18.png>]) (./build6.tex))
-(./results.tex [37 <./Figures/Figure19.png>] [38]
+ [36 <./Figures/Figure18.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+[37 <./Figures/Figure19.png>]
+<Figures/Figure21.png, id=189, 384.43625pt x 301.125pt>
+File: Figures/Figure21.png Graphic file (type png)
+
+<use Figures/Figure21.png>
+Package pdftex.def Info: Figures/Figure21.png used on input line 24.
+(pdftex.def)             Requested size: 207.77625pt x 162.7521pt.
+ [38 <./Figures/Figure21.png>]) (./build6.tex))
+(./results.tex [39]
 Chapter 6.
-(./results1.tex [39
+(./results1.tex [40
 
 ]
 
@@ -583,35 +595,35 @@ Overfull \hbox (21.63693pt too wide) in paragraph at lines 39--54
  [][] 
  []
 
-[40] <Figures/Figure17.jpg, id=198, 787.94376pt x 420.57124pt>
+[41] <Figures/Figure17.jpg, id=204, 787.94376pt x 420.57124pt>
 File: Figures/Figure17.jpg Graphic file (type jpg)
 
 <use Figures/Figure17.jpg>
 Package pdftex.def Info: Figures/Figure17.jpg used on input line 60.
 (pdftex.def)             Requested size: 415.55249pt x 221.80432pt.
 
-<Figures/Figure13.png, id=199, 334.24875pt x 144.54pt>
+<Figures/Figure13.png, id=205, 334.24875pt x 144.54pt>
 File: Figures/Figure13.png Graphic file (type png)
 
 <use Figures/Figure13.png>
 Package pdftex.def Info: Figures/Figure13.png used on input line 68.
 (pdftex.def)             Requested size: 207.77625pt x 89.85205pt.
 
-<Figures/Figure14.png, id=200, 336.25626pt x 143.53625pt>
+<Figures/Figure14.png, id=206, 336.25626pt x 143.53625pt>
 File: Figures/Figure14.png Graphic file (type png)
 
 <use Figures/Figure14.png>
 Package pdftex.def Info: Figures/Figure14.png used on input line 77.
 (pdftex.def)             Requested size: 207.77625pt x 88.69368pt.
-) (./results2.tex) (./results3.tex [41 <./Figures/Figure17.jpg>]
+) (./results2.tex) (./results3.tex [42 <./Figures/Figure17.jpg>]
 
-LaTeX Warning: Citation `xilinx' on page 42 undefined on input line 5.
+LaTeX Warning: Citation `xilinx' on page 43 undefined on input line 5.
 
-)) (./conclusion.tex [42 <./Figures/Figure13.png> <./Figures/Figure14.png>]
+)) (./conclusion.tex [43 <./Figures/Figure13.png> <./Figures/Figure14.png>]
 Chapter 7.
-[43
+[44
 
-]) (./thesis.bbl [44]) [45
+]) (./thesis.bbl [45]) [46
 
 
 ] (./thesis.aux)
@@ -623,10 +635,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5579 strings out of 493089
- 81843 string characters out of 6134842
- 155190 words of memory out of 5000000
- 8891 multiletter control sequences out of 15000+600000
+ 5585 strings out of 493089
+ 81968 string characters out of 6134842
+ 155202 words of memory out of 5000000
+ 8896 multiletter control sequences out of 15000+600000
  14311 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,9n,38p,1522b,1398s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -641,11 +653,12 @@ cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (52 pages, 4516928 bytes).
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis.pdf (53 pages, 4557541 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
+ 270 PDF objects out of 1000 (max. 8388607)
+ 159 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
