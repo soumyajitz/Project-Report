@@ -6,18 +6,17 @@
 \contentsline {section}{\numberline {2.1}Types of Biometrics}{6}
 \contentsline {section}{\numberline {2.2}Purpose of Biometric Ear Recognition}{7}
 \contentsline {section}{\numberline {2.3}Contributions of this Project}{10}
-\contentsline {chapter}{\numberline {3}Background}{11}
-\contentsline {chapter}{\numberline {4}Related Works}{14}
-\contentsline {chapter}{\numberline {5}Design of Proposed Approach}{16}
-\contentsline {section}{\numberline {5.1}Traditional Approach}{16}
-\contentsline {section}{\numberline {5.2}SIFT and SURF Descriptor}{18}
-\contentsline {section}{\numberline {5.3}Training Model}{22}
-\contentsline {section}{\numberline {5.4}Deep Learning Approach}{25}
-\contentsline {section}{\numberline {5.5}Convolution Neural Network}{36}
-\contentsline {section}{\numberline {5.6}Our Deep Network and Model}{39}
-\contentsline {chapter}{\numberline {6}Implementation Results}{40}
-\contentsline {section}{\numberline {6.1}Results of the Traditional Approach}{40}
-\contentsline {section}{\numberline {6.2}Results of the Deep Approach}{42}
-\contentsline {section}{\numberline {6.3}Comparison of the Approaches}{43}
-\contentsline {chapter}{\numberline {7}Conclusion}{44}
-\contentsline {chapter}{Bibliography}{46}
+\contentsline {chapter}{\numberline {3}Background and Related Works}{11}
+\contentsline {chapter}{\numberline {4}Initial Shallow Design}{15}
+\contentsline {section}{\numberline {4.1}Traditional Approach}{15}
+\contentsline {section}{\numberline {4.2}SIFT and SURF Descriptor}{17}
+\contentsline {section}{\numberline {4.3}False Match Removal}{21}
+\contentsline {section}{\numberline {4.4}Training Model}{24}
+\contentsline {section}{\numberline {4.5}Results of the Traditional Approach}{27}
+\contentsline {chapter}{\numberline {5}Improved Deep Design}{30}
+\contentsline {section}{\numberline {5.1}Deep Learning Approach}{30}
+\contentsline {section}{\numberline {5.2}Convolution Neural Network}{41}
+\contentsline {section}{\numberline {5.3}Our Deep Network and Model}{44}
+\contentsline {section}{\numberline {5.4}Results of the Deep Approach}{44}
+\contentsline {chapter}{\numberline {6}Conclusion}{45}
+\contentsline {chapter}{Bibliography}{47}

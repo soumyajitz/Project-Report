@@ -5,21 +5,20 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Characteristics of Human Ear\cite {pflug2012ear}\relax }}{8}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Ear Image Enhancement\relax }}{15}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Histogram of Enhanced Image\relax }}{16}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Histogram of Enhanced Image\relax }}{16}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces The detected SURF features (left) and matching result under rotation (middle) and scale change (right)\relax }}{19}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces The matching results of SIFT detectors under rotation (left) and scale change (right)\relax }}{21}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces The matching results of SURF detector\relax }}{24}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces The matching results of SIFT detector\relax }}{25}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Multi-class SVM(from [libSVM paper])\relax }}{25}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces A comparison result of the detected and matched keypoints by SURF and SIFT\relax }}{29}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Sample Images from IIT Delhi Ear Dataset\relax }}{29}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Sample Images from AMI Ear Dataset\relax }}{29}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Ear Image Enhancement\relax }}{16}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Histogram of Enhanced Image\relax }}{17}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Histogram of Enhanced Image\relax }}{17}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces The detected SURF features (left) and matching result under rotation (middle) and scale change (right)\relax }}{20}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces The matching results of SIFT detectors under rotation (left) and scale change (right)\relax }}{22}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces The matching results of SURF detector\relax }}{22}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces The matching results of SIFT detector\relax }}{23}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Multi-class SVM(from [libSVM paper])\relax }}{23}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Artificial Neural Network with D input neurons and 1 output neuron\relax }}{26}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces LeNet Network Diagram\relax }}{36}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Typical CNN Network\relax }}{37}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Performance of a 4-layer ReLU CNN\relax }}{38}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces A comparison result of the detected and matched keypoints by SURF and SIFT\relax }}{42}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Sample Images from IIT Delhi Ear Dataset\relax }}{43}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Sample Images from AMI Ear Dataset\relax }}{43}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Artificial Neural Network with D input neurons and 1 output neuron\relax }}{31}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces LeNet Network Diagram\relax }}{41}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Typical CNN Network\relax }}{41}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Performance of a 4-layer ReLU CNN\relax }}{43}
 \addvspace {10\p@ }
