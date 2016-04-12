@@ -13,9 +13,9 @@
 \contentsline {section}{\numberline {4.3}False Match Removal}{21}
 \contentsline {section}{\numberline {4.4}Training Model}{24}
 \contentsline {section}{\numberline {4.5}Results of the Traditional Approach}{28}
-\contentsline {chapter}{\numberline {5}Ongoing and Future Work}{32}
-\contentsline {section}{\numberline {5.1}Deep Learning Approach}{32}
-\contentsline {section}{\numberline {5.2}Convolution Neural Network}{38}
-\contentsline {chapter}{\numberline {6}Conclusion}{42}
-\contentsline {chapter}{Bibliography}{44}
+\contentsline {chapter}{\numberline {5}Ongoing and Future Work}{31}
+\contentsline {section}{\numberline {5.1}Deep Learning Approach}{31}
+\contentsline {section}{\numberline {5.2}Convolution Neural Network}{37}
+\contentsline {chapter}{\numberline {6}Conclusion}{41}
+\contentsline {chapter}{Bibliography}{43}
 \contentsline {chapter}{\numberline {7}Appendix}{50}

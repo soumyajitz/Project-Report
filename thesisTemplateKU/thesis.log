@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 APR 2016 16:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 APR 2016 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -215,11 +215,8 @@ Package: KUThesis 2005/02/15
 \outsidemargin=\dimen127
 \abovemargin=\dimen128
 \belowmargin=\dimen129
- (./fancyhdr.sty
-\headwidth=\dimen130
-)
-\aboveTcaptionskip=\dimen131
-\belowTcaptionskip=\dimen132
+\aboveTcaptionskip=\dimen130
+\belowTcaptionskip=\dimen131
 ) (./KULogo.sty
 Package: KULogo 2004/08/31
 )
@@ -253,13 +250,13 @@ LaTeX Font Info:    ... okay on input line 61.
  (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count114
-\scratchdimen=\dimen133
+\scratchdimen=\dimen132
 \scratchbox=\box32
 \nofMPsegments=\count115
 \nofMParguments=\count116
 \everyMPshowfont=\toks23
 \MPscratchCnt=\count117
-\MPscratchDim=\dimen134
+\MPscratchDim=\dimen133
 \MPnumerator=\count118
 \makeMPintoPDFobject=\count119
 \everyMPtoPDFconversion=\toks24
@@ -344,90 +341,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--101
 
  []
 
+[1] (./abstract.tex) [2
 
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[1] (./abstract.tex)
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[2
-
-] (./thesis.toc
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[3
+] (./thesis.toc [3
 
 ])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[4] (./thesis.lof)
+ [4] (./thesis.lof)
 \tf@lof=\write4
 \openout4 = `thesis.lof'.
 
+ [5
 
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[5
-
-] (./thesis.lot)
+]
+(./thesis.lot)
 \tf@lot=\write5
 \openout5 = `thesis.lot'.
 
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[6
+ [6
 
 ] (./introduction.tex
 Chapter 1.
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
 [1
 
 ]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[2] <Figures/Figure1.png, id=35, 569.12625pt x 165.61874pt>
+ [2] <Figures/Figure1.png, id=35, 569.12625pt x 165.61874pt>
 File: Figures/Figure1.png Graphic file (type png)
 
 <use Figures/Figure1.png>
 Package pdftex.def Info: Figures/Figure1.png used on input line 22.
 (pdftex.def)             Requested size: 415.55249pt x 120.93352pt.
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[3 <./Figures/Figure1.png>]) (./problem.tex
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[4]
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
+ [3 <./Figures/Figure1.png>]) (./problem.tex [4]
 [5]
 Chapter 2.
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
 [6
 
 ] <Figures/Figure2.png, id=53, 553.06625pt x 370.38374pt>
@@ -436,43 +387,12 @@ File: Figures/Figure2.png Graphic file (type png)
 <use Figures/Figure2.png>
 Package pdftex.def Info: Figures/Figure2.png used on input line 17.
 (pdftex.def)             Requested size: 415.55249pt x 278.2901pt.
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[7]
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[8 <./Figures/Figure2.png>]) (./background.tex
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[9]
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[10]
+ [7] [8 <./Figures/Figure2.png>]) (./background.tex
+[9] [10]
 Chapter 3.
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
 [11
 
-]
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[12]
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[13]) (./design.tex
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[14]
+] [12] [13]) (./design.tex [14]
 Chapter 4.
 (./build1.tex <Figures/Figure3.png, id=81, 120.45pt x 144.54pt>
 File: Figures/Figure3.png Graphic file (type png)
@@ -513,11 +433,7 @@ File: Figures/Figure8.png Graphic file (type png)
 <use Figures/Figure8.png>
 Package pdftex.def Info: Figures/Figure8.png used on input line 51.
 (pdftex.def)             Requested size: 83.10922pt x 116.06995pt.
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[15
+ [15
 
  <./Figures/Figure3.png> <./Figures/Figure4.png>]) (./build2.tex
 Missing character: There is no â in font cmr12!
@@ -529,30 +445,15 @@ Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[16 <./Figures/Figure5.png> <./Figures/Figure6.png> <./Figures/Figure7.png> <./
-Figures/Figure8.png>]
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[17] <Figures/Figure9.png, id=102, 630.355pt x 207.77625pt>
+ [16 <./Figures/Figure5.png> <./Figures/Figure6.png> <./Figures/Figure7.png> <.
+/Figures/Figure8.png>] [17]
+<Figures/Figure9.png, id=102, 630.355pt x 207.77625pt>
 File: Figures/Figure9.png Graphic file (type png)
 
 <use Figures/Figure9.png>
 Package pdftex.def Info: Figures/Figure9.png used on input line 23.
 (pdftex.def)             Requested size: 415.55249pt x 136.97421pt.
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[18]
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[19 <./Figures/Figure9.png>]
+ [18] [19 <./Figures/Figure9.png>]
 Missing character: There is no Ï in font cmr12!
 Missing character: There is no ƒ in font cmr12!
 
@@ -569,29 +470,14 @@ File: Figures/Figure12.png Graphic file (type png)
 <use Figures/Figure12.png>
 Package pdftex.def Info: Figures/Figure12.png used on input line 57.
 (pdftex.def)             Requested size: 103.88812pt x 115.69438pt.
-) (./False.tex
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[20]
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[21 <./Figures/Figure11.png> <./Figures/Figure12.png>]
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[22]
+) (./False.tex [20] [21 <./Figures/Figure11.png> <./Figures/Figure12.png>] [22]
 Missing character: There is no â in font cmr12!
 Missing character: There is no ˆ in font cmr12!
 Missing character: There is no ’ in font cmr12!
 Missing character: There is no Ï in font cmr12!
 Missing character: There is no ƒ in font cmr12!
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[23] <Figures/Figure22.png, id=133, 213.04594pt x 105.39375pt>
+ [23]
+<Figures/Figure22.png, id=133, 213.04594pt x 105.39375pt>
 File: Figures/Figure22.png Graphic file (type png)
 
 <use Figures/Figure22.png>
@@ -618,23 +504,8 @@ File: Figures/Figure10.png Graphic file (type png)
 <use Figures/Figure10.png>
 Package pdftex.def Info: Figures/Figure10.png used on input line 25.
 (pdftex.def)             Requested size: 207.77625pt x 169.13777pt.
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[24 <./Figures/Figure22.png>]
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[25 <./Figures/Figure15.png>]
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[26 <./Figures/Figure16.png> <./Figures/Figure10.png>]) (./results1.tex
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[27]
+ [24 <./Figures/Figure22.png>] [25 <./Figures/Figure15.png>] [26 <./Figures/Fig
+ure16.png> <./Figures/Figure10.png>]) (./results1.tex [27]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `htbp') on input line 7.
@@ -648,85 +519,50 @@ Overfull \hbox (21.63693pt too wide) in paragraph at lines 39--54
  [][] 
  []
 
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
 [28]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `htbp') on input line 58.
 
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[29] <Figures/Figure17.jpg, id=160, 787.94376pt x 420.57124pt>
+<Figures/Figure17.jpg, id=157, 787.94376pt x 420.57124pt>
 File: Figures/Figure17.jpg Graphic file (type jpg)
 
 <use Figures/Figure17.jpg>
 Package pdftex.def Info: Figures/Figure17.jpg used on input line 82.
 (pdftex.def)             Requested size: 415.55249pt x 221.80432pt.
 
-<Figures/Figure13.png, id=161, 334.24875pt x 144.54pt>
+<Figures/Figure13.png, id=158, 334.24875pt x 144.54pt>
 File: Figures/Figure13.png Graphic file (type png)
 
 <use Figures/Figure13.png>
 Package pdftex.def Info: Figures/Figure13.png used on input line 90.
 (pdftex.def)             Requested size: 207.77625pt x 89.85205pt.
 
-<Figures/Figure14.png, id=162, 336.25626pt x 143.53625pt>
+<Figures/Figure14.png, id=159, 336.25626pt x 143.53625pt>
 File: Figures/Figure14.png Graphic file (type png)
 
 <use Figures/Figure14.png>
 Package pdftex.def Info: Figures/Figure14.png used on input line 99.
 (pdftex.def)             Requested size: 207.77625pt x 88.69368pt.
-)) (./improveddesign.tex
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[30 <./Figures/Figure17.jpg> <./Figures/Figure13.png>]
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[31 <./Figures/Figure14.png>]
+)) (./improveddesign.tex [29] [30 <./Figures/Figure17.jpg> <./Figures/Figure13.
+png> <./Figures/Figure14.png>]
 Chapter 5.
-(./build4.tex <Figures/Figure20.png, id=172, 330.23375pt x 262.9825pt>
+(./build4.tex <Figures/Figure20.png, id=169, 330.23375pt x 262.9825pt>
 File: Figures/Figure20.png Graphic file (type png)
 
 <use Figures/Figure20.png>
 Package pdftex.def Info: Figures/Figure20.png used on input line 13.
 (pdftex.def)             Requested size: 290.88547pt x 231.65402pt.
+ [31
 
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[32
-
-]
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[33 <./Figures/Figure20.png>]
-
-LaTeX Warning: Citation `lecunn' on page 34 undefined on input line 22.
-
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[34]
+] [32 <./Figures/Figure20.png>] [33]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[35]
+ [34]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
@@ -741,11 +577,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--39
 
  []
 
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[36]
+[35]
 Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
@@ -755,104 +587,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-<Figures/Figure18.png, id=191, 1035.87pt x 118.4425pt>
+<Figures/Figure18.png, id=187, 1035.87pt x 118.4425pt>
 File: Figures/Figure18.png Graphic file (type png)
 
 <use Figures/Figure18.png>
 Package pdftex.def Info: Figures/Figure18.png used on input line 49.
 (pdftex.def)             Requested size: 415.55249pt x 47.5153pt.
-) (./build5.tex
-Overfull \hbox (0.47107pt too wide) in paragraph at lines 3--4
-[]\OT1/cmr/m/n/12 Convolution Neu-ral Net-work [CNN Pa-per] com-bine dif-fer-en
-t ar-chi-tec-tural ideas
- []
-
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[37] <Figures/Figure19.png, id=195, 910.40125pt x 299.1175pt>
+) (./build5.tex [36]
+<Figures/Figure19.png, id=192, 910.40125pt x 299.1175pt>
 File: Figures/Figure19.png Graphic file (type png)
 
 <use Figures/Figure19.png>
 Package pdftex.def Info: Figures/Figure19.png used on input line 8.
 (pdftex.def)             Requested size: 415.55249pt x 136.53226pt.
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[38 <./Figures/Figure18.png> <./Figures/Figure19.png>]
+ [37 <./Figures/Figure18.png> <./Figures/Figure19.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[39] <Figures/Figure21.png, id=204, 384.43625pt x 301.125pt>
+[38] <Figures/Figure21.png, id=201, 384.43625pt x 301.125pt>
 File: Figures/Figure21.png Graphic file (type png)
 
 <use Figures/Figure21.png>
 Package pdftex.def Info: Figures/Figure21.png used on input line 24.
 (pdftex.def)             Requested size: 207.77625pt x 162.7521pt.
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[40 <./Figures/Figure21.png>])) (./conclusion.tex
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[41]
+ [39 <./Figures/Figure21.png>])) (./conclusion.tex
+[40]
 Chapter 6.
+[41
 
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[42
-
-]) (./thesis.bbl
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+]) (./thesis.bbl [42] [43
 
 
-[43]
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[44
-
-
-]
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[45]
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[46]
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[47]
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[48]) (./appendix.tex
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
+] [44] [45] [46] [47] [48]) (./appendix.tex
 [49]
 Chapter 7.
 
 Overfull \hbox (70.89667pt too wide) in paragraph at lines 14--15
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
-
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
 
 [50
 
@@ -878,10 +651,6 @@ Overfull \hbox (77.94666pt too wide) in paragraph at lines 46--47
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
 [51]
 Overfull \hbox (63.84668pt too wide) in paragraph at lines 62--63
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
@@ -892,27 +661,15 @@ Overfull \hbox (63.84668pt too wide) in paragraph at lines 63--64
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
 [52]
 Overfull \hbox (56.79669pt too wide) in paragraph at lines 93--94
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
 [53]
 Overfull \hbox (56.79669pt too wide) in paragraph at lines 122--123
 [][][][][][][][][][][][][][][][][][][] 
  []
-
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
 
 [54]
 Overfull \hbox (0.39679pt too wide) in paragraph at lines 146--147
@@ -924,44 +681,29 @@ Overfull \hbox (14.49677pt too wide) in paragraph at lines 149--150
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
 [55]
 Overfull \hbox (70.89667pt too wide) in paragraph at lines 155--156
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
-
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
 
 [56]
 Overfull \hbox (14.49677pt too wide) in paragraph at lines 189--190
 [][][][][][][][][][][][][][][] 
  []
 
-)
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[57] (./thesis.aux)
-
-LaTeX Warning: There were undefined references.
-
+) [57] (./thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5743 strings out of 493089
- 83588 string characters out of 6134842
- 164632 words of memory out of 5000000
- 9050 multiletter control sequences out of 15000+600000
+ 5654 strings out of 493089
+ 82801 string characters out of 6134842
+ 163348 words of memory out of 5000000
+ 8964 multiletter control sequences out of 15000+600000
  15633 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,42p,1544b,1558s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,9n,38p,1544b,1403s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -976,7 +718,7 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (64 pages, 4621814 bytes).
+Output written on thesis.pdf (64 pages, 4618499 bytes).
 PDF statistics:
  311 PDF objects out of 1000 (max. 8388607)
  186 compressed objects within 2 object streams

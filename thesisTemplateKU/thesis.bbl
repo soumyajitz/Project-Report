@@ -160,6 +160,15 @@ M.~Zhang, G.~Wang, H.~Chao, and F.~Wu, {\em Image Analysis and Recognition:
   Matrix Estimation, pp.~316--322.
 \newblock Cham: Springer International Publishing, 2015.
 
+\bibitem{vapnik}
+C.~Cortes and V.~Vapnik, ``Support-vector networks,'' {\em Machine learning},
+  vol.~20, no.~3, pp.~273--297, 1995.
+
+\bibitem{multiSVM}
+K.-B. Duan and S.~S. Keerthi, ``Which is the best multiclass svm method? an
+  empirical study,'' in {\em Multiple classifier systems}, pp.~278--285,
+  Springer, 2005.
+
 \bibitem{AMI}
 L.~M. E.~Gonzalez, L.~Alvarez, ``Ami ear database, centro de i+d de tecnologias
   de la imagen,''
@@ -197,6 +206,11 @@ Y.~LeCun and Y.~Bengio, ``Convolutional networks for images, speech, and time
   series,'' {\em The handbook of brain theory and neural networks}, vol.~3361,
   no.~10, p.~1995, 1995.
 
+\bibitem{lecun}
+Y.~LeCun, L.~Bottou, Y.~Bengio, and P.~Haffner, ``Gradient-based learning
+  applied to document recognition,'' {\em Proceedings of the IEEE}, vol.~86,
+  no.~11, pp.~2278--2324, 1998.
+
 \bibitem{dbn}
 R.~Salakhutdinov and G.~E. Hinton, ``Deep boltzmann machines,'' in {\em
   International conference on artificial intelligence and statistics},
@@ -216,5 +230,16 @@ J.~Deng, W.~Dong, R.~Socher, L.-J. Li, K.~Li, and L.~Fei-Fei, ``Imagenet: A
 \bibitem{siftfisher}
 A.~Berg, J.~Deng, and L.~Fei-Fei, ``Large scale visual recognition challenge
   2010,'' 2010.
+
+\bibitem{nair}
+V.~Nair and G.~E. Hinton, ``Rectified linear units improve restricted boltzmann
+  machines,'' in {\em Proceedings of the 27th International Conference on
+  Machine Learning (ICML-10)}, pp.~807--814, 2010.
+
+\bibitem{dropout}
+N.~Srivastava, G.~Hinton, A.~Krizhevsky, I.~Sutskever, and R.~Salakhutdinov,
+  ``Dropout: A simple way to prevent neural networks from overfitting,'' {\em
+  The Journal of Machine Learning Research}, vol.~15, no.~1, pp.~1929--1958,
+  2014.
 
 \end{thebibliography}
