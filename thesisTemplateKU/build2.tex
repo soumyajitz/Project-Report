@@ -26,7 +26,7 @@ $\frac{d^2}{dy^2}g(\sigma)$ at the point. This method leads to a novel detection
 \end{figure}
 
 \textbf{Scale Invariant Feature Transform(SIFT) - } The SIFT features are invariant to image scaling and rotation and shown to provide robust matching across a substantial range of affine distortion, change in 3D viewpoint, addition of noise, and change in illumination. Image matching is a fundamental aspect of many problems in computer vision, including object or scene recognition, solving for 3D structure from multiple images, stereo correspondence, and motion tracking. This paper describes image features that have many properties that make them suitable for matching differing images of an object or scene. The features are invariant to image scaling and rotation, and partially invariant to change in illumination and 3D camera viewpoint. They are well localized in both the spatial and frequency domains, reducing the probability of disruption by occlusion, clutter, or noise. Large numbers of features can be extracted from typical images with efficient algorithms. In addition, the features are highly distinctive, which allows a single feature to be correctly matched with high probability against a large database of features, providing a basis for object and scene recognition.
-The cost of extracting these features is minimized by taking a cascade filtering approach, in which the more expensive operations are applied only at locations that pass an initial test. 
+The cost of extracting these features is minimized by taking a cascade filtering approach, in which the more expensive operations are applied only at locations that pass an initial test. 3D-SIFT \cite{3dsift} algorithms have also been researched upon to get a better understanding for 3-dimensional object feature extraction and matching.
 
  The computation stages of SIFT are as follows: \\
 Step 1. Scale space extrema detection: The first step is to construct a Gaussian scale over all the locations. It is implemented efficiently by using a difference of Gaussian (DoG) to identify potential interest points. The 2D Gaussian operator G(x,y,σ) is convolved with the input image \textit{I(x,y)}:
@@ -38,7 +38,7 @@ where the  DoG images are obtained by subtracting the subsequent scales in each 
 	$G(x,y,\sigma) = L(x,y,k\sigma) - L(x,y,\sigma)$
 \end{center}
 
-Step 2. Accurate keypoint localization: Once a keypoint has been detected, a detailed model is fitted to determine its location and scale. The keypoints are selected based on measures of their stability. Further details can be found in [16]. 
+Step 2. Accurate keypoint localization: Once a keypoint has been detected, a detailed model is fitted to determine its location and scale. The keypoints are selected based on measures of their stability. Further details can be found in \cite{alonso2009iris}. 
 
 Step 3. Orientation assignment: One or more orientations are assigned to each key- point location based on local image gradient directions. All future operations are per- formed on image data that has been transformed relative to the assigned orientation, scale, and location for each feature.
 

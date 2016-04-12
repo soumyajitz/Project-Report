@@ -18,6 +18,7 @@
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \newlabel{fig:Figure1}{{1.1}{3}}
 \citation{pflug2012ear}
+\citation{fingerprint}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Statement of the Problem}{6}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -26,17 +27,39 @@
 \citation{pflug2012ear}
 \citation{pflug2012ear}
 \@writefile{toc}{\contentsline {section}{\numberline {2.2}Purpose of Biometric Ear Recognition}{7}}
+\citation{Iannarelli}
+\citation{burger}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Characteristics of Human Ear\cite  {pflug2012ear}\relax }}{8}}
 \newlabel{fig:Figure2}{{2.1}{8}}
 \citation{abaza}
-\citation{harris}
+\citation{sift1}
+\citation{sift2}
+\citation{surf}
 \citation{sarkar}
 \@writefile{toc}{\contentsline {section}{\numberline {2.3}Contributions of this Project}{10}}
+\citation{Iannarelli}
+\citation{canny}
+\citation{harris}
+\citation{hurley}
+\citation{mu2004shape}
+\citation{daramolaNN}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}Background and Related Works}{11}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \newlabel{sec:back}{{3}{11}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Initial Shallow Design}{15}}
+\citation{caffe}
+\citation{theano}
+\citation{torch}
+\citation{digits}
+\citation{tensorflow}
+\citation{pca}
+\citation{hurley}
+\citation{five,thirteen,LBP,HOG}
+\citation{fisher}
+\citation{parkhi}
+\citation{deepface}
+\citation{parkhi}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Traditional Shallow Design}{15}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \newlabel{sec:design}{{4}{15}}
@@ -61,8 +84,12 @@
 \newlabel{fig:test}{{4.3}{16}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.2}SIFT and SURF Descriptor}{17}}
 \newlabel{sec:build2}{{4.2}{17}}
+\citation{3dsift}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces The detected SURF features (left) and matching result under rotation (middle) and scale change (right)\relax }}{19}}
 \newlabel{fig:Figure9}{{4.4}{19}}
+\citation{alonso2009iris}
+\citation{RANSAC}
+\citation{optimalransac}
 \newlabel{fig:sub11}{{\caption@xref {fig:sub11}{ on input line 53}}{21}}
 \newlabel{sub@fig:sub11}{{}{21}}
 \newlabel{fig:sub12}{{\caption@xref {fig:sub12}{ on input line 58}}{21}}
@@ -70,54 +97,116 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces The matching results of SIFT detectors under rotation (left) and scale change (right)\relax }}{21}}
 \newlabel{fig:test4}{{4.5}{21}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.3}False Match Removal}{21}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces The matching results of SURF detector\relax }}{24}}
-\newlabel{fig:Figure15}{{4.6}{24}}
+\citation{ming}
 \@writefile{toc}{\contentsline {section}{\numberline {4.4}Training Model}{24}}
 \newlabel{sec:build3}{{4.4}{24}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces The matching results of SIFT detector\relax }}{25}}
-\newlabel{fig:Figure16}{{4.7}{25}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Multi-class SVM(from [libSVM paper])\relax }}{25}}
-\newlabel{fig:Figure10}{{4.8}{25}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.5}Results of the Traditional Approach}{27}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces SIFT and SURF detection and matching results at different scales\relax }}{28}}
-\newlabel{table1}{{4.1}{28}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Experimental results on the IIT Delhi database\relax }}{28}}
-\newlabel{table2}{{4.2}{28}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces A comparison result of the detected and matched keypoints by SURF and SIFT\relax }}{29}}
-\newlabel{fig:Figure13}{{4.9}{29}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces Sample Images from IIT Delhi Ear Dataset\relax }}{29}}
-\newlabel{fig:Figure13}{{4.10}{29}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces Sample Images from AMI Ear Dataset\relax }}{29}}
-\newlabel{fig:Figure14}{{4.11}{29}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Improved Deep Design}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Feature Point Matches after Outlier Detection\relax }}{24}}
+\newlabel{fig:Figure22}{{4.6}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces The matching results of SURF detector\relax }}{25}}
+\newlabel{fig:Figure15}{{4.7}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces The matching results of SIFT detector\relax }}{26}}
+\newlabel{fig:Figure16}{{4.8}{26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces Multi-class SVM(from [libSVM paper])\relax }}{26}}
+\newlabel{fig:Figure10}{{4.9}{26}}
+\citation{AMI}
+\citation{IIT}
+\citation{ansari}
+\citation{birbhanu}
+\citation{bowyer}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Results of the Traditional Approach}{28}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces SIFT and SURF detection and matching results at different scales\relax }}{29}}
+\newlabel{table1}{{4.1}{29}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Experimental results on the IIT Delhi database\relax }}{29}}
+\newlabel{table2}{{4.2}{29}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces Einal Results after the outlier detection\relax }}{29}}
+\newlabel{table3}{{4.3}{29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces A comparison result of the detected and matched keypoints by SURF and SIFT\relax }}{30}}
+\newlabel{fig:Figure13}{{4.10}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces Sample Images from IIT Delhi Ear Dataset\relax }}{30}}
+\newlabel{fig:Figure13}{{4.11}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces Sample Images from AMI Ear Dataset\relax }}{31}}
+\newlabel{fig:Figure14}{{4.12}{31}}
+\citation{ANN}
+\citation{backpropagation}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Ongoing and Future Work}{32}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Deep Learning Approach}{30}}
-\newlabel{sec:build4}{{5.1}{30}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Artificial Neural Network with D input neurons and 1 output neuron\relax }}{31}}
-\newlabel{fig:Figure20}{{5.1}{31}}
-\@writefile{lol}{\contentsline {lstlisting}{n}{35}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces LeNet Network Diagram\relax }}{41}}
-\newlabel{fig:Figure18}{{5.2}{41}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Typical CNN Network\relax }}{41}}
-\newlabel{fig:Figure19}{{5.3}{41}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Convolution Neural Network}{41}}
-\newlabel{sec:build5}{{5.2}{41}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Performance of a 4-layer ReLU CNN\relax }}{43}}
-\newlabel{fig:Figure21}{{5.4}{43}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Our Deep Network and Model}{44}}
-\newlabel{sec:build6}{{5.3}{44}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}Results of the Deep Approach}{44}}
-\newlabel{sec:results2}{{5.4}{44}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusion}{45}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Deep Learning Approach}{32}}
+\newlabel{sec:build4}{{5.1}{32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Artificial Neural Network with D input neurons and 1 output neuron\relax }}{33}}
+\newlabel{fig:Figure20}{{5.1}{33}}
+\citation{cnn}
+\citation{lecunn}
+\citation{dbn}
+\citation{krizhevsky}
+\citation{imagenet}
+\citation{siftfisher}
+\citation{caffe}
+\citation{theano}
+\citation{tensorflow}
+\citation{torch}
+\citation{caffe}
+\citation{krizhevsky}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces LeNet Network Diagram\relax }}{38}}
+\newlabel{fig:Figure18}{{5.2}{38}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Typical CNN Network\relax }}{38}}
+\newlabel{fig:Figure19}{{5.3}{38}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Convolution Neural Network}{38}}
+\newlabel{sec:build5}{{5.2}{38}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Performance of a 4-layer ReLU CNN\relax }}{40}}
+\newlabel{fig:Figure21}{{5.4}{40}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusion}{42}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{sec:conc}{{6}{45}}
+\newlabel{sec:conc}{{6}{42}}
 \bibstyle{ieeetr}
 \bibdata{ref1}
 \bibcite{pflug2012ear}{1}
 \bibcite{abaza}{2}
 \bibcite{tariq}{3}
-\bibcite{harris}{4}
-\bibcite{sarkar}{5}
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{47}}
+\bibcite{fingerprint}{4}
+\bibcite{Iannarelli}{5}
+\bibcite{burger}{6}
+\bibcite{sift1}{7}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{44}}
+\bibcite{sift2}{8}
+\bibcite{surf}{9}
+\bibcite{sarkar}{10}
+\bibcite{canny}{11}
+\bibcite{harris}{12}
+\bibcite{hurley}{13}
+\bibcite{mu2004shape}{14}
+\bibcite{daramolaNN}{15}
+\bibcite{caffe}{16}
+\bibcite{theano}{17}
+\bibcite{torch}{18}
+\bibcite{digits}{19}
+\bibcite{tensorflow}{20}
+\bibcite{pca}{21}
+\bibcite{five}{22}
+\bibcite{thirteen}{23}
+\bibcite{LBP}{24}
+\bibcite{HOG}{25}
+\bibcite{fisher}{26}
+\bibcite{parkhi}{27}
+\bibcite{deepface}{28}
+\bibcite{3dsift}{29}
+\bibcite{alonso2009iris}{30}
+\bibcite{RANSAC}{31}
+\bibcite{optimalransac}{32}
+\bibcite{ming}{33}
+\bibcite{AMI}{34}
+\bibcite{IIT}{35}
+\bibcite{ansari}{36}
+\bibcite{birbhanu}{37}
+\bibcite{bowyer}{38}
+\bibcite{ANN}{39}
+\bibcite{backpropagation}{40}
+\bibcite{cnn}{41}
+\bibcite{dbn}{42}
+\bibcite{krizhevsky}{43}
+\bibcite{imagenet}{44}
+\bibcite{siftfisher}{45}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Appendix}{50}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}

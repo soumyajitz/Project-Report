@@ -7,16 +7,15 @@
 \contentsline {section}{\numberline {2.2}Purpose of Biometric Ear Recognition}{7}
 \contentsline {section}{\numberline {2.3}Contributions of this Project}{10}
 \contentsline {chapter}{\numberline {3}Background and Related Works}{11}
-\contentsline {chapter}{\numberline {4}Initial Shallow Design}{15}
+\contentsline {chapter}{\numberline {4}Traditional Shallow Design}{15}
 \contentsline {section}{\numberline {4.1}Traditional Approach}{15}
 \contentsline {section}{\numberline {4.2}SIFT and SURF Descriptor}{17}
 \contentsline {section}{\numberline {4.3}False Match Removal}{21}
 \contentsline {section}{\numberline {4.4}Training Model}{24}
-\contentsline {section}{\numberline {4.5}Results of the Traditional Approach}{27}
-\contentsline {chapter}{\numberline {5}Improved Deep Design}{30}
-\contentsline {section}{\numberline {5.1}Deep Learning Approach}{30}
-\contentsline {section}{\numberline {5.2}Convolution Neural Network}{41}
-\contentsline {section}{\numberline {5.3}Our Deep Network and Model}{44}
-\contentsline {section}{\numberline {5.4}Results of the Deep Approach}{44}
-\contentsline {chapter}{\numberline {6}Conclusion}{45}
-\contentsline {chapter}{Bibliography}{47}
+\contentsline {section}{\numberline {4.5}Results of the Traditional Approach}{28}
+\contentsline {chapter}{\numberline {5}Ongoing and Future Work}{32}
+\contentsline {section}{\numberline {5.1}Deep Learning Approach}{32}
+\contentsline {section}{\numberline {5.2}Convolution Neural Network}{38}
+\contentsline {chapter}{\numberline {6}Conclusion}{42}
+\contentsline {chapter}{Bibliography}{44}
+\contentsline {chapter}{\numberline {7}Appendix}{50}

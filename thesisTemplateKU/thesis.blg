@@ -3,44 +3,49 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: ref1.bib
-You've used 5 entries,
+Warning--I didn't find a database entry for "lecunn"
+Warning--empty journal in optimalransac
+Warning--empty booktitle in AMI
+Warning--empty year in AMI
+You've used 45 entries,
             1876 wiz_defined-function locations,
-            512 strings with 4345 characters,
-and the built_in function-call counts, 1533 in all, are:
-= -- 154
-> -- 52
+            740 strings with 11088 characters,
+and the built_in function-call counts, 13743 in all, are:
+= -- 1361
+> -- 484
 < -- 0
-+ -- 19
-- -- 14
-* -- 108
-:= -- 214
-add.period$ -- 5
-call.type$ -- 5
-change.case$ -- 5
++ -- 179
+- -- 134
+* -- 938
+:= -- 1833
+add.period$ -- 46
+call.type$ -- 45
+change.case$ -- 44
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 84
-empty$ -- 145
-format.name$ -- 14
-if$ -- 378
+cite$ -- 48
+duplicate$ -- 747
+empty$ -- 1371
+format.name$ -- 134
+if$ -- 3404
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 5
-newline$ -- 18
-num.names$ -- 5
-pop$ -- 17
+int.to.str$ -- 45
+missing$ -- 44
+newline$ -- 140
+num.names$ -- 45
+pop$ -- 207
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 62
+skip$ -- 530
 stack$ -- 0
-substring$ -- 104
-swap$ -- 37
+substring$ -- 1017
+swap$ -- 310
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 16
-width$ -- 6
-write$ -- 55
+warning$ -- 3
+while$ -- 142
+width$ -- 47
+write$ -- 444
+(There were 4 warnings)

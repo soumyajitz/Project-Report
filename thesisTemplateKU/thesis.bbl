@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{pflug2012ear}
 A.~Pflug and C.~Busch, ``Ear biometrics: a survey of detection, feature
@@ -15,9 +15,30 @@ A.~Tariq and M.~U. Akram, ``Personal identification using ear recognition,''
   {\em TELKOMNIKA (Telecommunication Computing Electronics and Control)},
   vol.~10, no.~2, pp.~321--326, 2012.
 
-\bibitem{harris}
-C.~Harris and M.~Stephens, ``A combined corner and edge detector.,'' in {\em
-  Alvey vision conference}, vol.~15, p.~50, Citeseer, 1988.
+\bibitem{fingerprint}
+U.~Park, S.~Pankanti, and A.~Jain, ``Fingerprint verification using sift
+  features,'' in {\em SPIE Defense and Security Symposium}, pp.~69440K--69440K,
+  International Society for Optics and Photonics, 2008.
+
+\bibitem{Iannarelli}
+A.~Lannarelli, ``Ear identification. forensic identification series,'' 1989.
+
+\bibitem{burger}
+M.~Burge and W.~Burger, ``Ear biometrics,'' in {\em Biometrics}, pp.~273--285,
+  Springer, 1996.
+
+\bibitem{sift1}
+D.~G. Lowe, ``Object recognition from local scale-invariant features,'' in {\em
+  Computer vision, 1999. The proceedings of the seventh IEEE international
+  conference on}, vol.~2, pp.~1150--1157, Ieee, 1999.
+
+\bibitem{sift2}
+D.~G. Lowe, ``Distinctive image features from scale-invariant keypoints,'' {\em
+  International journal of computer vision}, vol.~60, no.~2, pp.~91--110, 2004.
+
+\bibitem{surf}
+H.~Bay, T.~Tuytelaars, and L.~Van~Gool, ``Surf: Speeded up robust features,''
+  in {\em Computer vision--ECCV 2006}, pp.~404--417, Springer, 2006.
 
 \bibitem{sarkar}
 S.~Sarkar, J.~Liu, and G.~Wang, ``Biometric analysis of human ear matching
@@ -25,5 +46,175 @@ S.~Sarkar, J.~Liu, and G.~Wang, ``Biometric analysis of human ear matching
   Analysis and Recognition - 12th International Conference, {ICIAR}2015,
   Niagara Falls, ON, Canada, July 22-24, 2015, Proceedings}, pp.~186--193,
   2015.
+
+\bibitem{canny}
+J.~Canny, ``A computational approach to edge detection,'' {\em Pattern Analysis
+  and Machine Intelligence, IEEE Transactions on}, no.~6, pp.~679--698, 1986.
+
+\bibitem{harris}
+C.~Harris and M.~Stephens, ``A combined corner and edge detector.,'' in {\em
+  Alvey vision conference}, vol.~15, p.~50, Citeseer, 1988.
+
+\bibitem{hurley}
+D.~J. Hurley, M.~S. Nixon, and J.~N. Carter, ``Automatic ear recognition by
+  force field transformations,'' in {\em Visual Biometrics (Ref. No. 2000/018),
+  IEE Colloquium on}, pp.~7--1, IET, 2000.
+
+\bibitem{mu2004shape}
+Z.~Mu, L.~Yuan, Z.~Xu, D.~Xi, and S.~Qi, ``Shape and structural feature based
+  ear recognition,'' in {\em Advances in biometric person authentication},
+  pp.~663--670, Springer, 2004.
+
+\bibitem{daramolaNN}
+S.~A. Daramola and D.~Oluwaninyo, ``Automatic ear recognition system using back
+  propagation neural network.,'' {\em image}, vol.~9, p.~10, 2011.
+
+\bibitem{caffe}
+Y.~Jia, E.~Shelhamer, J.~Donahue, S.~Karayev, J.~Long, R.~Girshick,
+  S.~Guadarrama, and T.~Darrell, ``Caffe: Convolutional architecture for fast
+  feature embedding,'' in {\em Proceedings of the ACM International Conference
+  on Multimedia}, pp.~675--678, ACM, 2014.
+
+\bibitem{theano}
+J.~Bergstra, O.~Breuleux, F.~Bastien, P.~Lamblin, R.~Pascanu, G.~Desjardins,
+  J.~Turian, D.~Warde-Farley, and Y.~Bengio, ``Theano: a cpu and gpu math
+  expression compiler,'' in {\em Proceedings of the Python for scientific
+  computing conference (SciPy)}, vol.~4, p.~3, Austin, TX, 2010.
+
+\bibitem{torch}
+R.~Collobert, S.~Bengio, and J.~Mari{\'e}thoz, ``Torch: a modular machine
+  learning software library,'' tech. rep., IDIAP, 2002.
+
+\bibitem{digits}
+N.~Whitehead and A.~Fit-Florea, ``Precision \& performance: Floating point and
+  ieee 754 compliance for nvidia gpus,'' {\em rn (A+ B)}, vol.~21,
+  pp.~1--1874919424, 2011.
+
+\bibitem{tensorflow}
+M.~Abadi, A.~Agarwal, P.~Barham, E.~Brevdo, Z.~Chen, C.~Citro, G.~S. Corrado,
+  A.~Davis, J.~Dean, M.~Devin, {\em et~al.}, ``Tensorflow: Large-scale machine
+  learning on heterogeneous distributed systems,'' {\em arXiv preprint
+  arXiv:1603.04467}, 2016.
+
+\bibitem{pca}
+I.~Jolliffe, {\em Principal component analysis}.
+\newblock Wiley Online Library, 2002.
+
+\bibitem{five}
+R.~G. Cinbis, J.~Verbeek, and C.~Schmid, ``Unsupervised metric learning for
+  face identification in tv video,'' in {\em Computer Vision (ICCV), 2011 IEEE
+  International Conference on}, pp.~1559--1566, IEEE, 2011.
+
+\bibitem{thirteen}
+C.~Lu and X.~Tang, ``Surpassing human-level face verification performance on
+  lfw with gaussianface,'' {\em arXiv preprint arXiv:1404.3840}, 2014.
+
+\bibitem{LBP}
+M.~Pietik{\"a}inen, ``Local binary patterns,'' {\em Scholarpedia}, vol.~5,
+  no.~3, p.~9775, 2010.
+
+\bibitem{HOG}
+N.~Dalal and B.~Triggs, ``Histograms of oriented gradients for human
+  detection,'' in {\em Computer Vision and Pattern Recognition, 2005. CVPR
+  2005. IEEE Computer Society Conference on}, vol.~1, pp.~886--893, IEEE, 2005.
+
+\bibitem{fisher}
+F.~Perronnin, J.~S{\'a}nchez, and T.~Mensink, ``Improving the fisher kernel for
+  large-scale image classification,'' in {\em Computer Vision--ECCV 2010},
+  pp.~143--156, Springer, 2010.
+
+\bibitem{parkhi}
+O.~M. Parkhi, A.~Vedaldi, and A.~Zisserman, ``Deep face recognition,'' {\em
+  Proceedings of the British Machine Vision}, vol.~1, no.~3, p.~6, 2015.
+
+\bibitem{deepface}
+Y.~Taigman, M.~Yang, M.~Ranzato, and L.~Wolf, ``Deepface: Closing the gap to
+  human-level performance in face verification,'' in {\em Proceedings of the
+  IEEE Conference on Computer Vision and Pattern Recognition}, pp.~1701--1708,
+  2014.
+
+\bibitem{3dsift}
+P.~Scovanner, S.~Ali, and M.~Shah, ``A 3-dimensional sift descriptor and its
+  application to action recognition,'' in {\em Proceedings of the 15th
+  international conference on Multimedia}, pp.~357--360, ACM, 2007.
+
+\bibitem{alonso2009iris}
+F.~Alonso-Fernandez, P.~Tome-Gonzalez, V.~Ruiz-Albacete, and J.~Ortega-Garcia,
+  ``Iris recognition based on sift features,'' in {\em Biometrics, Identity and
+  Security (BIdS), 2009 International Conference on}, pp.~1--8, IEEE, 2009.
+
+\bibitem{RANSAC}
+M.~A. Fischler and R.~C. Bolles, ``Random sample consensus: a paradigm for
+  model fitting with applications to image analysis and automated
+  cartography,'' {\em Communications of the ACM}, vol.~24, no.~6, pp.~381--395,
+  1981.
+
+\bibitem{optimalransac}
+A.~Hast, J.~Nysj{\"o}, and A.~Marchetti, ``Optimal ransac-towards a repeatable
+  algorithm for finding the optimal set,'' 2013.
+
+\bibitem{ming}
+M.~Zhang, G.~Wang, H.~Chao, and F.~Wu, {\em Image Analysis and Recognition:
+  12th International Conference, ICIAR 2015, Niagara Falls, ON, Canada, July
+  22-24, 2015, Proceedings}, ch.~Fast and Robust Algorithm for Fundamental
+  Matrix Estimation, pp.~316--322.
+\newblock Cham: Springer International Publishing, 2015.
+
+\bibitem{AMI}
+L.~M. E.~Gonzalez, L.~Alvarez, ``Ami ear database, centro de i+d de tecnologias
+  de la imagen,''
+
+\bibitem{IIT}
+A.~Kumar and C.~Wu, ``Automated human identification using ear imaging,'' {\em
+  Pattern Recognition}, vol.~45, no.~3, pp.~956--968, 2012.
+
+\bibitem{ansari}
+S.~Ansari and P.~Gupta, ``Localization of ear using outer helix curve of the
+  ear,'' in {\em Computing: Theory and Applications, 2007. ICCTA'07.
+  International Conference on}, pp.~688--692, IEEE, 2007.
+
+\bibitem{birbhanu}
+H.~Chen and B.~Bhanu, ``Human ear detection from side face range images,'' in
+  {\em Pattern Recognition, 2004. ICPR 2004. Proceedings of the 17th
+  International Conference on}, vol.~3, pp.~574--577, IEEE, 2004.
+
+\bibitem{bowyer}
+P.~Yan and K.~W. Bowyer, ``Biometric recognition using 3d ear shape,'' {\em
+  Pattern Analysis and Machine Intelligence, IEEE Transactions on}, vol.~29,
+  no.~8, pp.~1297--1308, 2007.
+
+\bibitem{ANN}
+S.-C. Wang, ``Artificial neural network,'' in {\em Interdisciplinary Computing
+  in Java Programming}, pp.~81--100, Springer, 2003.
+
+\bibitem{backpropagation}
+Y.~Le~Cun, D.~Touresky, G.~Hinton, and T.~Sejnowski, ``A theoretical framework
+  for back-propagation,'' in {\em The Connectionist Models Summer School},
+  vol.~1, pp.~21--28, 1988.
+
+\bibitem{cnn}
+Y.~LeCun and Y.~Bengio, ``Convolutional networks for images, speech, and time
+  series,'' {\em The handbook of brain theory and neural networks}, vol.~3361,
+  no.~10, p.~1995, 1995.
+
+\bibitem{dbn}
+R.~Salakhutdinov and G.~E. Hinton, ``Deep boltzmann machines,'' in {\em
+  International conference on artificial intelligence and statistics},
+  pp.~448--455, 2009.
+
+\bibitem{krizhevsky}
+A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton, ``Imagenet classification with
+  deep convolutional neural networks,'' in {\em Advances in neural information
+  processing systems}, pp.~1097--1105, 2012.
+
+\bibitem{imagenet}
+J.~Deng, W.~Dong, R.~Socher, L.-J. Li, K.~Li, and L.~Fei-Fei, ``Imagenet: A
+  large-scale hierarchical image database,'' in {\em Computer Vision and
+  Pattern Recognition, 2009. CVPR 2009. IEEE Conference on}, pp.~248--255,
+  IEEE, 2009.
+
+\bibitem{siftfisher}
+A.~Berg, J.~Deng, and L.~Fei-Fei, ``Large scale visual recognition challenge
+  2010,'' 2010.
 
 \end{thebibliography}

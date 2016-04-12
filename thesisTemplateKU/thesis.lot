@@ -3,7 +3,9 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces SIFT and SURF detection and matching results at different scales\relax }}{28}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Experimental results on the IIT Delhi database\relax }}{28}
+\contentsline {table}{\numberline {4.1}{\ignorespaces SIFT and SURF detection and matching results at different scales\relax }}{29}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Experimental results on the IIT Delhi database\relax }}{29}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Einal Results after the outlier detection\relax }}{29}
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
