@@ -6,45 +6,45 @@ Database file #1: ref1.bib
 Warning--empty journal in optimalransac
 Warning--empty booktitle in AMI
 Warning--empty year in AMI
-You've used 50 entries,
+You've used 52 entries,
             1876 wiz_defined-function locations,
-            770 strings with 11912 characters,
-and the built_in function-call counts, 15580 in all, are:
-= -- 1558
-> -- 539
+            781 strings with 12252 characters,
+and the built_in function-call counts, 16125 in all, are:
+= -- 1617
+> -- 555
 < -- 0
-+ -- 199
-- -- 149
-* -- 1065
-:= -- 2067
-add.period$ -- 51
-call.type$ -- 50
-change.case$ -- 49
++ -- 205
+- -- 153
+* -- 1103
+:= -- 2142
+add.period$ -- 53
+call.type$ -- 52
+change.case$ -- 51
 chr.to.int$ -- 0
-cite$ -- 53
-duplicate$ -- 843
-empty$ -- 1543
-format.name$ -- 149
-if$ -- 3862
+cite$ -- 55
+duplicate$ -- 873
+empty$ -- 1593
+format.name$ -- 153
+if$ -- 3999
 int.to.chr$ -- 0
-int.to.str$ -- 50
-missing$ -- 49
-newline$ -- 155
-num.names$ -- 50
-pop$ -- 222
+int.to.str$ -- 52
+missing$ -- 51
+newline$ -- 161
+num.names$ -- 52
+pop$ -- 225
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 611
+skip$ -- 634
 stack$ -- 0
-substring$ -- 1193
-swap$ -- 359
+substring$ -- 1229
+swap$ -- 373
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 162
-width$ -- 52
-write$ -- 496
+while$ -- 168
+width$ -- 54
+write$ -- 518
 (There were 3 warnings)

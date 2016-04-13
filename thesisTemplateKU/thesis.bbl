@@ -5,6 +5,11 @@ A.~Pflug and C.~Busch, ``Ear biometrics: a survey of detection, feature
   extraction and recognition methods,'' {\em Biometrics, IET}, vol.~1, no.~2,
   pp.~114--129, 2012.
 
+\bibitem{libsvm}
+C.-C. Chang and C.-J. Lin, ``Libsvm: a library for support vector machines,''
+  {\em ACM Transactions on Intelligent Systems and Technology (TIST)}, vol.~2,
+  no.~3, p.~27, 2011.
+
 \bibitem{abaza}
 A.~Abaza, A.~Ross, C.~Hebert, M.~A.~F. Harrison, and M.~S. Nixon, ``A survey on
   ear biometrics,'' {\em ACM computing surveys (CSUR)}, vol.~45, no.~2, p.~22,
@@ -26,6 +31,11 @@ A.~Lannarelli, ``Ear identification. forensic identification series,'' 1989.
 \bibitem{burger}
 M.~Burge and W.~Burger, ``Ear biometrics,'' in {\em Biometrics}, pp.~273--285,
   Springer, 1996.
+
+\bibitem{purkait}
+R.~Purkait and P.~Singh, ``A test of individuality of human external ear
+  pattern: Its application in the field of personal identification,'' {\em
+  Forensic science international}, vol.~178, no.~2, pp.~112--118, 2008.
 
 \bibitem{sift1}
 D.~G. Lowe, ``Object recognition from local scale-invariant features,'' in {\em

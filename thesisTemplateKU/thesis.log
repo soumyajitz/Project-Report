@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 APR 2016 16:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 APR 2016 18:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -312,55 +312,42 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count120
-LaTeX Font Info:    Try loading font information for U+msa on input line 78.
+LaTeX Font Info:    Try loading font information for U+msa on input line 76.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 78.
+LaTeX Font Info:    Try loading font information for U+msb on input line 76.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 78.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
- [1
+LaTeX Warning: No \note given.
+
+[1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
+(./abstract.tex) [1
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
-
- []
-
-[1] (./abstract.tex) [2
-
-] (./thesis.toc [3
-
-])
+] (./thesis.toc)
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [4] (./thesis.lof)
+ [2
+
+] (./thesis.lof)
 \tf@lof=\write4
 \openout4 = `thesis.lof'.
 
- [5
+ [3
 
-]
-(./thesis.lot)
+] (./thesis.lot)
 \tf@lot=\write5
 \openout5 = `thesis.lot'.
 
- [6
+
+[4
 
 ] (./introduction.tex
 Chapter 1.
@@ -370,7 +357,7 @@ Chapter 1.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [2] <Figures/Figure1.png, id=35, 569.12625pt x 165.61874pt>
+ [2] <Figures/Figure1.png, id=28, 569.12625pt x 165.61874pt>
 File: Figures/Figure1.png Graphic file (type png)
 
 <use Figures/Figure1.png>
@@ -381,7 +368,7 @@ Package pdftex.def Info: Figures/Figure1.png used on input line 22.
 Chapter 2.
 [6
 
-] <Figures/Figure2.png, id=53, 553.06625pt x 370.38374pt>
+] <Figures/Figure2.png, id=45, 553.06625pt x 370.38374pt>
 File: Figures/Figure2.png Graphic file (type png)
 
 <use Figures/Figure2.png>
@@ -394,40 +381,40 @@ Chapter 3.
 
 ] [12] [13]) (./design.tex [14]
 Chapter 4.
-(./build1.tex <Figures/Figure3.png, id=81, 120.45pt x 144.54pt>
+(./build1.tex <Figures/Figure3.png, id=74, 120.45pt x 144.54pt>
 File: Figures/Figure3.png Graphic file (type png)
 
 <use Figures/Figure3.png>
 Package pdftex.def Info: Figures/Figure3.png used on input line 9.
 (pdftex.def)             Requested size: 83.10922pt x 99.73268pt.
 
-<Figures/Figure4.png, id=82, 115.43124pt x 139.52126pt>
+<Figures/Figure4.png, id=75, 115.43124pt x 139.52126pt>
 File: Figures/Figure4.png Graphic file (type png)
 
 <use Figures/Figure4.png>
 Package pdftex.def Info: Figures/Figure4.png used on input line 15.
 (pdftex.def)             Requested size: 83.10922pt x 100.45308pt.
- <Figures/Figure5.png, id=83, 210.7875pt x 160.6pt>
+ <Figures/Figure5.png, id=76, 210.7875pt x 160.6pt>
 File: Figures/Figure5.png Graphic file (type png)
 
 <use Figures/Figure5.png>
 Package pdftex.def Info: Figures/Figure5.png used on input line 27.
 (pdftex.def)             Requested size: 103.88812pt x 79.15292pt.
 
-<Figures/Figure6.png, id=84, 210.7875pt x 158.5925pt>
+<Figures/Figure6.png, id=77, 210.7875pt x 158.5925pt>
 File: Figures/Figure6.png Graphic file (type png)
 
 <use Figures/Figure6.png>
 Package pdftex.def Info: Figures/Figure6.png used on input line 33.
 (pdftex.def)             Requested size: 103.88812pt x 78.16351pt.
 
-<Figures/Figure7.png, id=85, 119.44624pt x 165.61874pt>
+<Figures/Figure7.png, id=78, 119.44624pt x 165.61874pt>
 File: Figures/Figure7.png Graphic file (type png)
 
 <use Figures/Figure7.png>
 Package pdftex.def Info: Figures/Figure7.png used on input line 45.
 (pdftex.def)             Requested size: 83.10922pt x 115.23483pt.
- <Figures/Figure8.png, id=86, 116.435pt x 162.6075pt>
+ <Figures/Figure8.png, id=79, 116.435pt x 162.6075pt>
 File: Figures/Figure8.png Graphic file (type png)
 
 <use Figures/Figure8.png>
@@ -447,7 +434,7 @@ Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
  [16 <./Figures/Figure5.png> <./Figures/Figure6.png> <./Figures/Figure7.png> <.
 /Figures/Figure8.png>] [17]
-<Figures/Figure9.png, id=102, 630.355pt x 207.77625pt>
+<Figures/Figure9.png, id=95, 630.355pt x 207.77625pt>
 File: Figures/Figure9.png Graphic file (type png)
 
 <use Figures/Figure9.png>
@@ -457,14 +444,14 @@ Package pdftex.def Info: Figures/Figure9.png used on input line 23.
 Missing character: There is no Ï in font cmr12!
 Missing character: There is no ƒ in font cmr12!
 
-<Figures/Figure11.png, id=115, 268.00125pt x 205.76875pt>
+<Figures/Figure11.png, id=107, 268.00125pt x 205.76875pt>
 File: Figures/Figure11.png Graphic file (type png)
 
 <use Figures/Figure11.png>
 Package pdftex.def Info: Figures/Figure11.png used on input line 52.
 (pdftex.def)             Requested size: 103.88812pt x 79.76282pt.
 
-<Figures/Figure12.png, id=116, 176.66pt x 196.735pt>
+<Figures/Figure12.png, id=108, 176.66pt x 196.735pt>
 File: Figures/Figure12.png Graphic file (type png)
 
 <use Figures/Figure12.png>
@@ -477,28 +464,28 @@ Missing character: There is no ’ in font cmr12!
 Missing character: There is no Ï in font cmr12!
 Missing character: There is no ƒ in font cmr12!
  [23]
-<Figures/Figure22.png, id=133, 213.04594pt x 105.39375pt>
+<Figures/Figure22.png, id=127, 213.04594pt x 105.39375pt>
 File: Figures/Figure22.png Graphic file (type png)
 
 <use Figures/Figure22.png>
 Package pdftex.def Info: Figures/Figure22.png used on input line 54.
 (pdftex.def)             Requested size: 290.88547pt x 143.9093pt.
 ) (./build3.tex
-<Figures/Figure15.png, id=134, 191.71625pt x 259.97125pt>
+<Figures/Figure15.png, id=128, 191.71625pt x 259.97125pt>
 File: Figures/Figure15.png Graphic file (type png)
 
 <use Figures/Figure15.png>
 Package pdftex.def Info: Figures/Figure15.png used on input line 6.
 (pdftex.def)             Requested size: 207.77625pt x 281.7644pt.
 
-<Figures/Figure16.png, id=135, 286.06876pt x 250.9375pt>
+<Figures/Figure16.png, id=129, 286.06876pt x 250.9375pt>
 File: Figures/Figure16.png Graphic file (type png)
 
 <use Figures/Figure16.png>
 Package pdftex.def Info: Figures/Figure16.png used on input line 15.
 (pdftex.def)             Requested size: 207.77625pt x 182.26006pt.
 
-<Figures/Figure10.png, id=136, 242.9075pt x 197.73875pt>
+<Figures/Figure10.png, id=130, 242.9075pt x 197.73875pt>
 File: Figures/Figure10.png Graphic file (type png)
 
 <use Figures/Figure10.png>
@@ -524,21 +511,21 @@ Overfull \hbox (21.63693pt too wide) in paragraph at lines 39--54
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `htbp') on input line 58.
 
-<Figures/Figure17.jpg, id=157, 787.94376pt x 420.57124pt>
+<Figures/Figure17.jpg, id=151, 787.94376pt x 420.57124pt>
 File: Figures/Figure17.jpg Graphic file (type jpg)
 
 <use Figures/Figure17.jpg>
 Package pdftex.def Info: Figures/Figure17.jpg used on input line 82.
 (pdftex.def)             Requested size: 415.55249pt x 221.80432pt.
 
-<Figures/Figure13.png, id=158, 334.24875pt x 144.54pt>
+<Figures/Figure13.png, id=152, 334.24875pt x 144.54pt>
 File: Figures/Figure13.png Graphic file (type png)
 
 <use Figures/Figure13.png>
 Package pdftex.def Info: Figures/Figure13.png used on input line 90.
 (pdftex.def)             Requested size: 207.77625pt x 89.85205pt.
 
-<Figures/Figure14.png, id=159, 336.25626pt x 143.53625pt>
+<Figures/Figure14.png, id=153, 336.25626pt x 143.53625pt>
 File: Figures/Figure14.png Graphic file (type png)
 
 <use Figures/Figure14.png>
@@ -547,7 +534,7 @@ Package pdftex.def Info: Figures/Figure14.png used on input line 99.
 )) (./improveddesign.tex [29] [30 <./Figures/Figure17.jpg> <./Figures/Figure13.
 png> <./Figures/Figure14.png>]
 Chapter 5.
-(./build4.tex <Figures/Figure20.png, id=169, 330.23375pt x 262.9825pt>
+(./build4.tex <Figures/Figure20.png, id=162, 330.23375pt x 262.9825pt>
 File: Figures/Figure20.png Graphic file (type png)
 
 <use Figures/Figure20.png>
@@ -587,14 +574,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-<Figures/Figure18.png, id=187, 1035.87pt x 118.4425pt>
+<Figures/Figure18.png, id=181, 1035.87pt x 118.4425pt>
 File: Figures/Figure18.png Graphic file (type png)
 
 <use Figures/Figure18.png>
 Package pdftex.def Info: Figures/Figure18.png used on input line 49.
 (pdftex.def)             Requested size: 415.55249pt x 47.5153pt.
 ) (./build5.tex [36]
-<Figures/Figure19.png, id=192, 910.40125pt x 299.1175pt>
+<Figures/Figure19.png, id=185, 910.40125pt x 299.1175pt>
 File: Figures/Figure19.png Graphic file (type png)
 
 <use Figures/Figure19.png>
@@ -605,7 +592,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
-[38] <Figures/Figure21.png, id=201, 384.43625pt x 301.125pt>
+[38] <Figures/Figure21.png, id=195, 384.43625pt x 301.125pt>
 File: Figures/Figure21.png Graphic file (type png)
 
 <use Figures/Figure21.png>
@@ -627,11 +614,18 @@ Overfull \hbox (70.89667pt too wide) in paragraph at lines 14--15
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[50
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 15.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
+ [50
 
 ]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 22.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omlcmr.fd
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
@@ -642,52 +636,52 @@ Overfull \hbox (35.64673pt too wide) in paragraph at lines 26--27
  []
 
 
-Overfull \hbox (70.89667pt too wide) in paragraph at lines 45--46
+Overfull \hbox (70.89667pt too wide) in paragraph at lines 47--48
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (77.94666pt too wide) in paragraph at lines 46--47
+Overfull \hbox (77.94666pt too wide) in paragraph at lines 48--49
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 [51]
-Overfull \hbox (63.84668pt too wide) in paragraph at lines 62--63
+Overfull \hbox (63.84668pt too wide) in paragraph at lines 64--65
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (63.84668pt too wide) in paragraph at lines 63--64
+Overfull \hbox (63.84668pt too wide) in paragraph at lines 65--66
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 [52]
-Overfull \hbox (56.79669pt too wide) in paragraph at lines 93--94
+Overfull \hbox (56.79669pt too wide) in paragraph at lines 95--96
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 [53]
-Overfull \hbox (56.79669pt too wide) in paragraph at lines 122--123
+Overfull \hbox (56.79669pt too wide) in paragraph at lines 124--125
 [][][][][][][][][][][][][][][][][][][] 
  []
 
 [54]
-Overfull \hbox (0.39679pt too wide) in paragraph at lines 146--147
+Overfull \hbox (0.39679pt too wide) in paragraph at lines 149--150
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (14.49677pt too wide) in paragraph at lines 149--150
+Overfull \hbox (14.49677pt too wide) in paragraph at lines 152--153
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 [55]
-Overfull \hbox (70.89667pt too wide) in paragraph at lines 155--156
+Overfull \hbox (70.89667pt too wide) in paragraph at lines 158--159
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 [56]
-Overfull \hbox (14.49677pt too wide) in paragraph at lines 189--190
+Overfull \hbox (14.49677pt too wide) in paragraph at lines 193--194
 [][][][][][][][][][][][][][][] 
  []
 
@@ -697,10 +691,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5654 strings out of 493089
- 82801 string characters out of 6134842
- 163348 words of memory out of 5000000
- 8964 multiletter control sequences out of 15000+600000
+ 5658 strings out of 493089
+ 82814 string characters out of 6134842
+ 163256 words of memory out of 5000000
+ 8968 multiletter control sequences out of 15000+600000
  15633 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,9n,38p,1544b,1403s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -718,10 +712,10 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (64 pages, 4618499 bytes).
+Output written on thesis.pdf (62 pages, 4625106 bytes).
 PDF statistics:
- 311 PDF objects out of 1000 (max. 8388607)
- 186 compressed objects within 2 object streams
+ 305 PDF objects out of 1000 (max. 8388607)
+ 182 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

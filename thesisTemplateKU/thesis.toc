@@ -1,13 +1,12 @@
 \select@language {english}
-\contentsline {chapter}{Acceptance Page}{i}
-\contentsline {chapter}{Abstract}{ii}
+\contentsline {chapter}{Abstract}{i}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {chapter}{\numberline {2}Statement of the Problem}{6}
 \contentsline {section}{\numberline {2.1}Types of Biometrics}{6}
 \contentsline {section}{\numberline {2.2}Purpose of Biometric Ear Recognition}{7}
 \contentsline {section}{\numberline {2.3}Contributions of this Project}{10}
 \contentsline {chapter}{\numberline {3}Background and Related Works}{11}
-\contentsline {chapter}{\numberline {4}Traditional Shallow Design}{15}
+\contentsline {chapter}{\numberline {4}Traditional Design}{15}
 \contentsline {section}{\numberline {4.1}Traditional Approach}{15}
 \contentsline {section}{\numberline {4.2}SIFT and SURF Descriptor}{17}
 \contentsline {section}{\numberline {4.3}False Match Removal}{21}
@@ -15,7 +14,7 @@
 \contentsline {section}{\numberline {4.5}Results of the Traditional Approach}{28}
 \contentsline {chapter}{\numberline {5}Ongoing and Future Work}{31}
 \contentsline {section}{\numberline {5.1}Deep Learning Approach}{31}
-\contentsline {section}{\numberline {5.2}Convolution Neural Network}{37}
+\contentsline {section}{\numberline {5.2}Convolutional Neural Networks}{37}
 \contentsline {chapter}{\numberline {6}Conclusion}{41}
 \contentsline {chapter}{Bibliography}{43}
 \contentsline {chapter}{\numberline {7}Appendix}{50}
