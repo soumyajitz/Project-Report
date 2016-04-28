@@ -23,7 +23,7 @@ e_{r}(i) = \frac{1}{2} \sum \|\mathbf{x}_i-\mathbf{\hat{x}}_i\|^2_F + \|\mathbf{
 
 The 2D reprojection error is proven to be more superior to other geometric errors. Optimal triangulation is a linear triangulation method which converts the least-square function to a one parameter function and finds a global optimal solution.
 
-Now, for the strategy for outlier detection, it is being assumed that the image noise is modeled by Gaussian distribution. Through intensive simulations, it is being found that the reprojection errors of outliers are usually greatly larger than those of inliers. As a result, these outliers can be identified using 3-sigma principle. Points with reprojection errors larger than the triple variance of all the reprojection error can be classified as outliers. Based on robust statistics [15:Ming Paper], we can obtain a robust standard deviation of the reprojection errors by the following equation.
+Now, for the strategy for outlier detection, it is being assumed that the image noise is modeled by Gaussian distribution. Through intensive simulations, it is being found that the reprojection errors of outliers are usually greatly larger than those of inliers. As a result, these outliers can be identified using 3-sigma principle. Points with reprojection errors larger than the triple variance of all the reprojection error can be classified as outliers. Based on robust statistics \cite{ming}, we can obtain a robust standard deviation of the reprojection errors by the following equation.
 
 \begin{equation}
 \sigma = 1.4826 \Big(1+\frac{5}{n-q}\Big)\text{median}_i|e^r_i|

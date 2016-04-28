@@ -10,6 +10,16 @@ C.-C. Chang and C.-J. Lin, ``Libsvm: a library for support vector machines,''
   {\em ACM Transactions on Intelligent Systems and Technology (TIST)}, vol.~2,
   no.~3, p.~27, 2011.
 
+\bibitem{lecun}
+Y.~LeCun, L.~Bottou, Y.~Bengio, and P.~Haffner, ``Gradient-based learning
+  applied to document recognition,'' {\em Proceedings of the IEEE}, vol.~86,
+  no.~11, pp.~2278--2324, 1998.
+
+\bibitem{krizhevsky}
+A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton, ``Imagenet classification with
+  deep convolutional neural networks,'' in {\em Advances in neural information
+  processing systems}, pp.~1097--1105, 2012.
+
 \bibitem{abaza}
 A.~Abaza, A.~Ross, C.~Hebert, M.~A.~F. Harrison, and M.~S. Nixon, ``A survey on
   ear biometrics,'' {\em ACM computing surveys (CSUR)}, vol.~45, no.~2, p.~22,
@@ -216,20 +226,10 @@ Y.~LeCun and Y.~Bengio, ``Convolutional networks for images, speech, and time
   series,'' {\em The handbook of brain theory and neural networks}, vol.~3361,
   no.~10, p.~1995, 1995.
 
-\bibitem{lecun}
-Y.~LeCun, L.~Bottou, Y.~Bengio, and P.~Haffner, ``Gradient-based learning
-  applied to document recognition,'' {\em Proceedings of the IEEE}, vol.~86,
-  no.~11, pp.~2278--2324, 1998.
-
 \bibitem{dbn}
 R.~Salakhutdinov and G.~E. Hinton, ``Deep boltzmann machines,'' in {\em
   International conference on artificial intelligence and statistics},
   pp.~448--455, 2009.
-
-\bibitem{krizhevsky}
-A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton, ``Imagenet classification with
-  deep convolutional neural networks,'' in {\em Advances in neural information
-  processing systems}, pp.~1097--1105, 2012.
 
 \bibitem{imagenet}
 J.~Deng, W.~Dong, R.~Socher, L.-J. Li, K.~Li, and L.~Fei-Fei, ``Imagenet: A
